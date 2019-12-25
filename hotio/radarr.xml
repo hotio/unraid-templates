@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>radarr</Name>
+  <Name>radarrtest</Name>
   <Repository>hotio/radarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   <Shell>bash</Shell>
