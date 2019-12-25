@@ -20,69 +20,6 @@
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>32400</HostPort>
-        <ContainerPort>32400</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/transcode</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>UMASK</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>PLEX_CLAIM</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>ADVERTISE_IP</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>ALLOWED_NETWORKS</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>PLEX_PASS</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>DISABLE_RELAY</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
-  <Labels/>
   <Config Name="Host Port for: 32400" Target="32400" Default="32400" Mode="tcp" Description="Container Port: 32400" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for: /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for: /transcode" Target="/transcode" Default="" Mode="rw" Description="Container Path: /transcode" Type="Path" Display="always" Required="false" Mask="false"/>

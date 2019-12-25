@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>radarrtest</Name>
+  <Name>radarr</Name>
   <Repository>hotio/radarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   <Shell>bash</Shell>
@@ -20,7 +20,6 @@
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
-
   <Config Name="Host Port for: 7878" Target="7878" Default="7878" Mode="tcp" Description="Container Port: 7878" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for: /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
