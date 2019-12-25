@@ -17,7 +17,7 @@
   <DonateLink/>
   <DonateImg/>
   <WebUI/>
-  <ExtraParams>--hostname UnRaid</ExtraParams>
+  <ExtraParams>--hostname unraid</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
