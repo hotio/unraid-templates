@@ -10,8 +10,8 @@
   <Category>Downloaders: Other:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/rar2fs.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/rar2fs.png</Icon>
-  <Overview>rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. To access the rar2fs mount from another container, use '--volumes-from rar2fs' as an extra parameter to that container.</Overview>
-  <Description>rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. To access the rar2fs mount from another container, use '--volumes-from rar2fs' as an extra parameter to that container.</Description>
+  <Overview>Rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. To access the rar2fs mount from another container, use '--volumes-from rar2fs' as an extra parameter to that container.</Overview>
+  <Description>Rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. To access the rar2fs mount from another container, use '--volumes-from rar2fs' as an extra parameter to that container.</Description>
   <MyIP/>
   <DonateText/>
   <DonateLink/>
