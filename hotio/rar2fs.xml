@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>rar2fs</Name>
+  <Repository>hotio/rar2fs</Repository>
+  <Registry>https://hub.docker.com/r/hotio/rar2fs</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/3SnkuKp</Support>
+  <Project>https://github.com/hotio/docker-rar2fs</Project>
+  <Category>Downloaders: Other:</Category>
+  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/rar2fs.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/rar2fs.png</Icon>
+  <Overview>rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly.</Overview>
+  <Description>rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly.</Description>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink/>
+  <DonateImg/>
+  <WebUI/>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>none</Network>
+  <Config Name="Host Path for /source" Target="/source" Default="" Mode="rw" Description="Container Path: /source" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /mountpoint" Target="/mountpoint" Default="" Mode="rw" Description="Container Path: /mountpoint" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SOURCE" Target="SOURCE" Default="/source" Mode="" Description="Container Variable: SOURCE" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="MOUNTPOINT" Target="MOUNTPOINT" Default="/mountpoint" Mode="" Description="Container Variable: MOUNTPOINT" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
