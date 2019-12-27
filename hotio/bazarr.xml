@@ -2,6 +2,14 @@
 <Container version="2">
   <Name>bazarr</Name>
   <Repository>hotio/bazarr</Repository>
+  <Branch>
+    <Tag>stable</Tag>
+    <TagDescription>Stable version</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable</Tag>
+    <TagDescription>Unstable version, development branch</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

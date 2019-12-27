@@ -2,6 +2,18 @@
 <Container version="2">
   <Name>radarr</Name>
   <Repository>hotio/radarr</Repository>
+  <Branch>
+    <Tag>stable</Tag>
+    <TagDescription>Stable version</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable</Tag>
+    <TagDescription>Unstable version</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>aphrodite</Tag>
+    <TagDescription>Unstable version, V3</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
