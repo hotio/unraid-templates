@@ -2,6 +2,14 @@
 <Container version="2">
   <Name>tautulli</Name>
   <Repository>hotio/tautulli</Repository>
+  <Branch>
+    <Tag>stable</Tag>
+    <TagDescription>Stable version</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable</Tag>
+    <TagDescription>Unstable version, pre-releases</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
