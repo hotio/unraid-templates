@@ -2,6 +2,18 @@
 <Container version="2">
   <Name>sonarr</Name>
   <Repository>hotio/sonarr</Repository>
+  <Branch>
+    <Tag>stable</Tag>
+    <TagDescription>Stable version, V2</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable</Tag>
+    <TagDescription>Unstable version, V2</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>phantom</Tag>
+    <TagDescription>Unstable version, V3</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/sonarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
