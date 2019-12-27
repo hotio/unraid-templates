@@ -22,8 +22,8 @@
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/radarr.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/radarr.png</Icon>
-  <Overview>Radarr is an independent fork of Sonarr reworked for automatically downloading downloads via Usenet and BitTorrent.</Overview>
-  <Description>Radarr is an independent fork of Sonarr reworked for automatically downloading downloads via Usenet and BitTorrent.</Description>
+  <Overview>Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.</Overview>
+  <Description>Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.</Description>
   <MyIP/>
   <DonateText/>
   <DonateLink/>
