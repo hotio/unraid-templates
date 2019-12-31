@@ -26,9 +26,9 @@
   <Config Name="Host Path for /movies" Target="/movies" Default="" Mode="rw" Description="Container Path: /movies" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Host Path for /tvshows" Target="/tvshows" Default="" Mode="rw" Description="Container Path: /tvshows" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Host Path for /music" Target="/music" Default="" Mode="rw" Description="Container Path: /music" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PLEX_CLAIM" Target="PLEX_CLAIM" Default="" Mode="" Description="Container Variable: PLEX_CLAIM" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="ADVERTISE_IP" Target="ADVERTISE_IP" Default="" Mode="" Description="Container Variable: ADVERTISE_IP" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="ALLOWED_NETWORKS" Target="ALLOWED_NETWORKS" Default="" Mode="" Description="Container Variable: ALLOWED_NETWORKS" Type="Variable" Display="always" Required="false" Mask="false"/>
