@@ -20,9 +20,10 @@
   <ExtraParams>--hostname unraid</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="INTERVAL" Target="INTERVAL" Default="300" Mode="" Description="Container Variable: INTERVAL" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DETECTION_MODE" Target="DETECTION_MODE" Default="dig-google.com" Mode="" Description="Container Variable: DETECTION_MODE" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="2" Mode="" Description="Container Variable: LOG_LEVEL" Type="Variable" Display="always" Required="false" Mask="false"/>
