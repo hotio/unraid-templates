@@ -24,7 +24,7 @@
   <DonateText/>
   <DonateLink/>
   <DonateImg/>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:7337]</WebUI>
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
