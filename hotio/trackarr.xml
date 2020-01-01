@@ -4,7 +4,7 @@
   <Repository>hotio/trackarr</Repository>
   <Branch>
     <Tag>stable</Tag>
-    <TagDescription>Stable version, V2</TagDescription>
+    <TagDescription>Stable version</TagDescription>
   </Branch>
   <Branch>
     <Tag>unstable</Tag>
