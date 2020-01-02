@@ -10,6 +10,10 @@
     <Tag>unstable</Tag>
     <TagDescription>Unstable version, AppVeyor builds</TagDescription>
   </Branch>
+  <Branch>
+    <Tag>v4</Tag>
+    <TagDescription>Very unstable version, V4 builds</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/ombi</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
