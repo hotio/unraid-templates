@@ -7,8 +7,8 @@
     <TagDescription>Stable version</TagDescription>
   </Branch>
   <Branch>
-    <Tag>netcore</Tag>
-    <TagDescription>Unstable version, runs on .NET Core instead of Mono</TagDescription>
+    <Tag>unstable</Tag>
+    <TagDescription>Unstable version</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   <Shell>bash</Shell>
