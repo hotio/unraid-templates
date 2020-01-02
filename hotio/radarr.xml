@@ -12,7 +12,7 @@
   </Branch>
   <Branch>
     <Tag>aphrodite</Tag>
-    <TagDescription>Unstable version, V3</TagDescription>
+    <TagDescription>Unstable version, V3, runs on Ubuntu 20.04</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   <Shell>bash</Shell>
