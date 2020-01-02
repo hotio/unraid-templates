@@ -4,11 +4,15 @@
   <Repository>hotio/lidarr</Repository>
   <Branch>
     <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <TagDescription>Stable version, master branch</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>semi-stable</Tag>
+    <TagDescription>Semi-Stable version, develop branch</TagDescription>
   </Branch>
   <Branch>
     <Tag>unstable</Tag>
-    <TagDescription>Unstable version</TagDescription>
+    <TagDescription>Unstable version, nightly</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   <Shell>bash</Shell>
