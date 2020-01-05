@@ -14,7 +14,7 @@
   <Description>Rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. To access the rar2fs mount from another container, use '--volumes-from rar2fs' as an extra parameter to that container.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
   <DonateImg/>
   <WebUI/>
   <ExtraParams>--security-opt apparmor:unconfined --cap-add SYS_ADMIN --device /dev/fuse</ExtraParams>

@@ -22,7 +22,7 @@
   <Description>Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:6767]</WebUI>
   <ExtraParams/>

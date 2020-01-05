@@ -22,7 +22,7 @@
   <Description>Jackett works as a proxy server: it translates queries from apps into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:9117]</WebUI>
   <ExtraParams/>
