@@ -14,7 +14,7 @@
   <Description>A docker image that reads hdd temperatures using smartctl and writes them to InfluxDB. To change the hostname sent to the influx database, edit the Extra Parameters. For nvme drives don't include the namespace, use nvme0 instead of nvme0n1.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI/>
   <ExtraParams>--hostname unraid</ExtraParams>

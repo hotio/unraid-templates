@@ -14,7 +14,7 @@
   <Description>Mount a remote filesystem using rclone. To access the rclone mount from another container, use '--volumes-from rclone' as an extra parameter to that container.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI/>
   <ExtraParams>--security-opt apparmor:unconfined --cap-add SYS_ADMIN --device /dev/fuse</ExtraParams>

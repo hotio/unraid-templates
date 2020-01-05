@@ -26,7 +26,7 @@
   <Description>Free and easy binary newsreader.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <ExtraParams/>

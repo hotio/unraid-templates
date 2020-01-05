@@ -14,7 +14,7 @@
   <Description>Plex Media Server docker image with support for Plex Claim, Plex Pass, the ability to disable Plex Relay and fast updates.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:32400]/web</WebUI>
   <ExtraParams/>

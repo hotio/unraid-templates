@@ -26,7 +26,7 @@
   <Description>Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:7878]</WebUI>
   <ExtraParams/>

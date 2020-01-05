@@ -14,7 +14,7 @@
   <Description>Restic is a program that does backups right. This docker image also contains rclone, for remote backups. See this docker image's project page for detailed configuration instructions.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI/>
   <ExtraParams>--hostname unraid</ExtraParams>

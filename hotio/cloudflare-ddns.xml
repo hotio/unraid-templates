@@ -14,7 +14,7 @@
   <Description>Cloudflare DDNS updates for both ipv4 and ipv6 + InfluxDB/Grafana support. To change the hostname sent to the influx database, edit the Extra Parameters.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI/>
   <ExtraParams>--hostname unraid</ExtraParams>

@@ -26,7 +26,7 @@
   <Description>Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <ExtraParams/>

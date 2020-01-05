@@ -14,7 +14,7 @@
   <Description>A docker image that reads apcupsd status and pushes it to InfluxDB.</Description>
   <MyIP/>
   <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink/>
   <DonateImg/>
   <WebUI/>
   <ExtraParams>--hostname unraid</ExtraParams>
