@@ -10,6 +10,10 @@
     <Tag>unstable</Tag>
     <TagDescription>Unstable version, pre-releases</TagDescription>
   </Branch>
+  <Branch>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit from develop branch</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/sabnzbd</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
