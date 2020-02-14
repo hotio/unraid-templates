@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>unpackerr</Name>
+  <Repository>hotio/unpackerr</Repository>
+  <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/3SnkuKp</Support>
+  <Project>https://github.com/hotio/docker-unpackerr</Project>
+  <Category>Downloaders: Other:</Category>
+  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/unpackerr.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/unpackerr.png</Icon>
+  <Overview>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Overview>
+  <Description>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Description>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
+  <DonateImg/>
+  <WebUI/>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
