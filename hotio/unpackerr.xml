@@ -29,7 +29,7 @@
   <Config Name="UN_RADARR_0_PATH" Target="UN_RADARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_RADARR_0_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="UN_LIDARR_0_URL" Target="UN_LIDARR_0_URL" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_URL" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="UN_LIDARR_0_API_KEY" Target="UN_LIDARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_API_KEY" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_LIDARR_0_PATH" Target="UN_LIDARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="UN_LIDARR_0_PATH (Currently not used, Lidarr API gives path.)" Target="UN_LIDARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="UN_DEBUG" Target="UN_DEBUG" Default="true|false" Mode="" Description="Container Variable: UN_DEBUG" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
