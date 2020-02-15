@@ -20,17 +20,17 @@
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
-  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="UN_SONARR_0_URL" Target="UN_SONARR_0_URL" Default="" Mode="" Description="Container Variable: UN_SONARR_0_URL" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_SONARR_0_API_KEY" Target="UN_SONARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_SONARR_0_API_KEY" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_SONARR_0_PATH" Target="UN_SONARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_SONARR_0_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_RADARR_0_URL" Target="UN_RADARR_0_URL" Default="" Mode="" Description="Container Variable: UN_RADARR_0_URL" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_RADARR_0_API_KEY" Target="UN_RADARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_RADARR_0_API_KEY" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_RADARR_0_PATH" Target="UN_RADARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_RADARR_0_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_LIDARR_0_URL" Target="UN_LIDARR_0_URL" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_URL" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_LIDARR_0_API_KEY" Target="UN_LIDARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_API_KEY" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_LIDARR_0_PATH (Currently not used, Lidarr API gives path.)" Target="UN_LIDARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UN_DEBUG" Target="UN_DEBUG" Default="true|false" Mode="" Description="Container Variable: UN_DEBUG" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="UN_SONARR_0_URL" Target="UN_SONARR_0_URL" Default="" Mode="" Description="Container Variable: UN_SONARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_SONARR_0_API_KEY" Target="UN_SONARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_SONARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_SONARR_0_PATH" Target="UN_SONARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_SONARR_0_PATH" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_RADARR_0_URL" Target="UN_RADARR_0_URL" Default="" Mode="" Description="Container Variable: UN_RADARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_RADARR_0_API_KEY" Target="UN_RADARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_RADARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_RADARR_0_PATH" Target="UN_RADARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_RADARR_0_PATH" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_LIDARR_0_URL" Target="UN_LIDARR_0_URL" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_LIDARR_0_API_KEY" Target="UN_LIDARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_LIDARR_0_PATH (Currently not used, Lidarr API gives path.)" Target="UN_LIDARR_0_PATH" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_PATH" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_DEBUG" Target="UN_DEBUG" Default="true|false" Mode="" Description="Container Variable: UN_DEBUG" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
