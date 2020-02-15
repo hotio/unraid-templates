@@ -24,7 +24,7 @@
   <Config Name="INTERVAL" Target="INTERVAL" Default="300" Mode="" Description="Container Variable: INTERVAL" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="DETECTION_MODE" Target="DETECTION_MODE" Default="dig-google.com|dig-opendns.com|curl-icanhazip.com|curl-wtfismyip.com|curl-showmyip.ca|curl-da.gd|curl-seeip.org" Mode="" Description="Container Variable: DETECTION_MODE" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="2|1|0" Mode="" Description="Container Variable: LOG_LEVEL" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="CF_USER" Target="CF_USER" Default="your.cf.email@example.com" Mode="" Description="Container Variable: CF_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="CF_USER" Target="CF_USER" Default="" Mode="" Description="Container Variable: CF_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="CF_APIKEY" Target="CF_APIKEY" Default="" Mode="" Description="Container Variable: CF_APIKEY" Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="CF_ZONES" Target="CF_ZONES" Default="example.com;foobar.com;foobar.com" Mode="" Description="Container Variable: CF_ZONES" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="CF_HOSTS" Target="CF_HOSTS" Default="test.example.com;test.foobar.com;test2.foobar.com" Mode="" Description="Container Variable: CF_HOSTS" Type="Variable" Display="always" Required="false" Mask="false"/>
@@ -34,6 +34,7 @@
   <Config Name="INFLUXDB_DB" Target="INFLUXDB_DB" Default="cloudflare_ddns" Mode="" Description="Container Variable: INFLUXDB_DB" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_USER" Target="INFLUXDB_USER" Default="" Mode="" Description="Container Variable: INFLUXDB_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_PASS" Target="INFLUXDB_PASS" Default="" Mode="" Description="Container Variable: INFLUXDB_PASS" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="CF_APITOKEN" Target="CF_APITOKEN" Default="" Mode="" Description="Container Variable: CF_APITOKEN" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
