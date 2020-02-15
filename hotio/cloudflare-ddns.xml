@@ -26,15 +26,15 @@
   <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="2|1|0" Mode="" Description="Container Variable: LOG_LEVEL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="CF_USER" Target="CF_USER" Default="" Mode="" Description="Container Variable: CF_USER" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="CF_APIKEY" Target="CF_APIKEY" Default="" Mode="" Description="Container Variable: CF_APIKEY" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
-  <Config Name="CF_ZONES" Target="CF_ZONES" Default="" Mode="" Description="Container Variable: CF_ZONES<br>Example: example.com;foobar.com;foobar.com" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="CF_HOSTS" Target="CF_HOSTS" Default="" Mode="" Description="Container Variable: CF_HOSTS<br>Example: test.example.com;test.foobar.com;test2.foobar.com" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="CF_RECORDTYPES" Target="CF_RECORDTYPES" Default="" Mode="" Description="Container Variable: CF_RECORDTYPES<br>Example: A;A;AAAA" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="CF_ZONES" Target="CF_ZONES" Default="example.com;foobar.com;foobar.com" Mode="" Description="Container Variable: CF_ZONES" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="CF_HOSTS" Target="CF_HOSTS" Default="test.example.com;test.foobar.com;test2.foobar.com" Mode="" Description="Container Variable: CF_HOSTS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="CF_RECORDTYPES" Target="CF_RECORDTYPES" Default="A;A;AAAA" Mode="" Description="Container Variable: CF_RECORDTYPES" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_ENABLED" Target="INFLUXDB_ENABLED" Default="false|true" Mode="" Description="Container Variable: INFLUXDB_ENABLED" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="INFLUXDB_HOST" Target="INFLUXDB_HOST" Default="" Mode="" Description="Container Variable: INFLUXDB_HOST<br>Example: http://influxdb:8086" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="INFLUXDB_HOST" Target="INFLUXDB_HOST" Default="http://influxdb:8086" Mode="" Description="Container Variable: INFLUXDB_HOST" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_DB" Target="INFLUXDB_DB" Default="cloudflare_ddns" Mode="" Description="Container Variable: INFLUXDB_DB" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_USER" Target="INFLUXDB_USER" Default="" Mode="" Description="Container Variable: INFLUXDB_USER" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_PASS" Target="INFLUXDB_PASS" Default="" Mode="" Description="Container Variable: INFLUXDB_PASS" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
-  <Config Name="CF_APITOKEN" Target="CF_APITOKEN" Default="" Mode="" Description="Container Variable: CF_APITOKEN" Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
+  <Config Name="CF_APITOKEN" Target="CF_APITOKEN" Default="" Mode="" Description="Container Variable: CF_APITOKEN" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>

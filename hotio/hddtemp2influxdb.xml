@@ -23,8 +23,8 @@
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="INTERVAL" Target="INTERVAL" Default="30" Mode="" Description="Container Variable: INTERVAL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="2|1|0" Mode="" Description="Container Variable: LOG_LEVEL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="DEVICES" Target="DEVICES" Default="" Mode="" Description="Container Variable: DEVICES<br>Example: sdb;sdc;sdd" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="INFLUXDB_HOST" Target="INFLUXDB_HOST" Default="" Mode="" Description="Container Variable: INFLUXDB_HOST<br>Example: http://influxdb:8086" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="DEVICES" Target="DEVICES" Default="sdb;sdc" Mode="" Description="Container Variable: DEVICES" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="INFLUXDB_HOST" Target="INFLUXDB_HOST" Default="http://influxdb:8086" Mode="" Description="Container Variable: INFLUXDB_HOST" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_DB" Target="INFLUXDB_DB" Default="hddtemp2influxdb" Mode="" Description="Container Variable: INFLUXDB_DB" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_USER" Target="INFLUXDB_USER" Default="" Mode="" Description="Container Variable: INFLUXDB_USER" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_PASS" Target="INFLUXDB_PASS" Default="" Mode="" Description="Container Variable: INFLUXDB_PASS" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
