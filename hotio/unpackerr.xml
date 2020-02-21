@@ -33,5 +33,6 @@
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UN_DEBUG" Target="UN_DEBUG" Default="false|true" Mode="" Description="Container Variable: UN_DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
