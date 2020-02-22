@@ -9,7 +9,7 @@
   <Project>https://github.com/hotio/docker-plex</Project>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/plex.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/plex.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/plex.png</Icon>
   <Overview>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates.</Overview>
   <Description>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates.</Description>
   <MyIP/>

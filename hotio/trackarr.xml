@@ -17,7 +17,7 @@
   <Project>https://github.com/hotio/docker-trackarr</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/trackarr.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/trackarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/trackarr.png</Icon>
   <Overview>Trackarr monitors tracker announce IRC channel, parses the announcements, and forwards those announcements to ARR PVRs (eg Sonarr). WARNING: On first time start a basic config is dumped, after that Trackarr will keep starting and closing down until you've installed a proper configuration with enabled trackers. See the upstream project's wiki for more info.</Overview>
   <Description>Trackarr monitors tracker announce IRC channel, parses the announcements, and forwards those announcements to ARR PVRs (eg Sonarr). WARNING: On first time start a basic config is dumped, after that Trackarr will keep starting and closing down until you've installed a proper configuration with enabled trackers. See the upstream project's wiki for more info.</Description>
   <MyIP/>

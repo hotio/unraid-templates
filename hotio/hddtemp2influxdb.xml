@@ -9,7 +9,7 @@
   <Project>https://github.com/hotio/docker-hddtemp2influxdb</Project>
   <Category>Tools: Other:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/hddtemp2influxdb.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/hddtemp2influxdb.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/hddtemp2influxdb.png</Icon>
   <Overview>A docker image that reads hdd temperatures using smartctl and writes them to InfluxDB. To change the hostname sent to the influx database, edit the Extra Parameters. For nvme drives don't include the namespace, use nvme0 instead of nvme0n1.</Overview>
   <Description>A docker image that reads hdd temperatures using smartctl and writes them to InfluxDB. To change the hostname sent to the influx database, edit the Extra Parameters. For nvme drives don't include the namespace, use nvme0 instead of nvme0n1.</Description>
   <MyIP/>

@@ -17,7 +17,7 @@
   <Project>https://github.com/hotio/docker-tautulli</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/tautulli.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/tautulli.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/tautulli.png</Icon>
   <Overview>A Python based monitoring and tracking tool for Plex Media Server.</Overview>
   <Description>A Python based monitoring and tracking tool for Plex Media Server.</Description>
   <MyIP/>

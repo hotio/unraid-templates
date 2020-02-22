@@ -21,7 +21,7 @@
   <Project>https://github.com/hotio/docker-sabnzbd</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/sabnzbd.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/sabnzbd.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/sabnzbd.png</Icon>
   <Overview>Free and easy binary newsreader.</Overview>
   <Description>Free and easy binary newsreader.</Description>
   <MyIP/>

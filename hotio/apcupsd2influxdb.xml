@@ -9,7 +9,7 @@
   <Project>https://github.com/hotio/docker-apcupsd2influxdb</Project>
   <Category>Tools: Other:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/apcupsd2influxdb.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/apcupsd2influxdb.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/apcupsd2influxdb.png</Icon>
   <Overview>A docker image that reads apcupsd status and pushes it to InfluxDB.</Overview>
   <Description>A docker image that reads apcupsd status and pushes it to InfluxDB.</Description>
   <MyIP/>
