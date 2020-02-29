@@ -4,7 +4,11 @@
   <Repository>hotio/unpackerr</Repository>
   <Branch>
     <Tag>stable</Tag>
-    <TagDescription>Stable version, every release</TagDescription>
+    <TagDescription>Stable version</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>semi-stable</Tag>
+    <TagDescription>Semi-Stable version, pre-releases</TagDescription>
   </Branch>
   <Branch>
     <Tag>unstable</Tag>
