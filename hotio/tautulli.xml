@@ -13,7 +13,7 @@
   <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/88672-support-hotio-all-images-released-by-hotio</Support>
+  <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-tautulli</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/tautulli.xml</TemplateURL>
