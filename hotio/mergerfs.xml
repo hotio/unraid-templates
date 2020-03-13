@@ -7,7 +7,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-mergerfs</Project>
-  <Category>Downloaders: Other:</Category>
+  <Category>Other:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/mergerfs.xml</TemplateURL>
   <Overview>Merge multiple filesystems with mergerfs. To access the mergerfs mount from another container, use '--volumes-from mergerfs' as an extra parameter to that container.</Overview>
   <Description>Merge multiple filesystems with mergerfs. To access the mergerfs mount from another container, use '--volumes-from mergerfs' as an extra parameter to that container.</Description>
