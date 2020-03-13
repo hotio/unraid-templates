@@ -18,7 +18,7 @@
   <WebUI/>
   <ExtraParams>--security-opt apparmor:unconfined --cap-add SYS_ADMIN --device /dev/fuse</ExtraParams>
   <PostArgs/>
-  <Network>bridge</Network>
+  <Network>none</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /source1" Target="/source1" Default="" Mode="rw" Description="Container Path: /source1" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /source2" Target="/source2" Default="" Mode="rw" Description="Container Path: /source2" Type="Path" Display="always-hide" Required="true" Mask="false"/>
