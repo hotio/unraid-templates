@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mergerfs</Name>
+  <Repository>hotio/mergerfs</Repository>
+  <Registry>https://hub.docker.com/r/hotio/mergerfs</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/3SnkuKp</Support>
+  <Project>https://github.com/hotio/docker-mergerfs</Project>
+  <Category>Downloaders: Other:</Category>
+  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/mergerfs.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/mergerfs.png</Icon>
+  <Overview>Merge multiple filesystems with mergerfs. To access the mergerfs mount from another container, use '--volumes-from mergerfs' as an extra parameter to that container.</Overview>
+  <Description>Merge multiple filesystems with mergerfs. To access the mergerfs mount from another container, use '--volumes-from mergerfs' as an extra parameter to that container.</Description>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
+  <DonateImg/>
+  <WebUI/>
+  <ExtraParams>--security-opt apparmor:unconfined --cap-add SYS_ADMIN --device /dev/fuse</ExtraParams>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /source1" Target="/source1" Default="" Mode="rw" Description="Container Path: /source1" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /source2" Target="/source2" Default="" Mode="rw" Description="Container Path: /source2" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /mountpoint" Target="/mountpoint" Default="" Mode="rw,shared" Description="Container Path: /mountpoint" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="BRANCHES" Target="BRANCHES" Default="/source1:/source2" Mode="" Description="Container Variable: BRANCHES&amp;lt;br&amp;gt;Example: /source1:/source2" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="MOUNTPOINT" Target="MOUNTPOINT" Default="/mountpoint" Mode="" Description="Container Variable: MOUNTPOINT" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
