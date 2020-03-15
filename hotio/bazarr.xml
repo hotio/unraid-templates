@@ -16,7 +16,7 @@
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-bazarr</Project>
   <Category>Downloaders: MediaApp:Other</Category>
-  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/bazarr.xml</TemplateURL>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/bazarr.png</Icon>
   <Overview>Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.</Overview>
   <Description>Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.</Description>

@@ -8,7 +8,7 @@
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-cloudflare-ddns</Project>
   <Category>Network:DNS</Category>
-  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/cloudflare-ddns.xml</TemplateURL>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/cloudflare-ddns.png</Icon>
   <Overview>Cloudflare DDNS updates for both ipv4 and ipv6 + InfluxDB/Grafana support. To change the hostname sent to the influx database, edit the Extra Parameters.</Overview>
   <Description>Cloudflare DDNS updates for both ipv4 and ipv6 + InfluxDB/Grafana support. To change the hostname sent to the influx database, edit the Extra Parameters.</Description>

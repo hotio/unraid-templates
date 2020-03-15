@@ -20,7 +20,7 @@
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-ombi</Project>
   <Category>Downloaders: MediaApp:Video</Category>
-  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/ombi.xml</TemplateURL>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/ombi.png</Icon>
   <Overview>Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves.</Overview>
   <Description>Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves.</Description>

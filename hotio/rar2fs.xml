@@ -8,7 +8,7 @@
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-rar2fs</Project>
   <Category>Downloaders: Other:</Category>
-  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/rar2fs.xml</TemplateURL>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/rar2fs.png</Icon>
   <Overview>Rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. Read the README.md on the project page to get an understanding on how to interact with the mount on the host.</Overview>
   <Description>Rar2fs is a FUSE based file system that can mount a source RAR archive/volume or a directory containing any number of RAR archives and read the contents as regular files on-the-fly. Read the README.md on the project page to get an understanding on how to interact with the mount on the host.</Description>

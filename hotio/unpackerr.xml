@@ -20,7 +20,7 @@
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-unpackerr</Project>
   <Category>Downloaders: Other:</Category>
-  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/unpackerr.xml</TemplateURL>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/unpackerr.png</Icon>
   <Overview>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Overview>
   <Description>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Description>

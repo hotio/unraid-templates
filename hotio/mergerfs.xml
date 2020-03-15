@@ -8,7 +8,7 @@
   <Support>https://discord.gg/3SnkuKp</Support>
   <Project>https://github.com/hotio/docker-mergerfs</Project>
   <Category>Other:</Category>
-  <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/mergerfs.xml</TemplateURL>
+  <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/mergerfs.png</Icon>
   <Overview>Merge multiple filesystems with mergerfs. Read the README.md on the project page to get an understanding on how to interact with the mount on the host.</Overview>
   <Description>Merge multiple filesystems with mergerfs. Read the README.md on the project page to get an understanding on how to interact with the mount on the host.</Description>
