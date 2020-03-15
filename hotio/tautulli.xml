@@ -19,7 +19,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/tautulli.png</Icon>
   <Overview>A Python based monitoring and tracking tool for Plex Media Server.</Overview>
-  <Description>A Python based monitoring and tracking tool for Plex Media Server.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

@@ -19,7 +19,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/nzbget.png</Icon>
   <Overview>The most efficient usenet downloader.</Overview>
-  <Description>The most efficient usenet downloader.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

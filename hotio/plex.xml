@@ -19,7 +19,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/plex.png</Icon>
   <Overview>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates. Plex Autoscan is also included with the "autoscan" tag.</Overview>
-  <Description>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates. Plex Autoscan is also included with the "autoscan" tag.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

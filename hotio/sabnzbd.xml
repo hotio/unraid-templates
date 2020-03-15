@@ -23,7 +23,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/sabnzbd.png</Icon>
   <Overview>Free and easy binary newsreader.</Overview>
-  <Description>Free and easy binary newsreader.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

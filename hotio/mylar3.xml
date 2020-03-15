@@ -19,7 +19,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/mylar3.png</Icon>
   <Overview>Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.</Overview>
-  <Description>Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

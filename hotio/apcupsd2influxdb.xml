@@ -11,7 +11,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/apcupsd2influxdb.png</Icon>
   <Overview>A docker image that reads apcupsd status and pushes it to InfluxDB.</Overview>
-  <Description>A docker image that reads apcupsd status and pushes it to InfluxDB.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

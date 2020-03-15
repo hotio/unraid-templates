@@ -23,7 +23,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/unpackerr.png</Icon>
   <Overview>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Overview>
-  <Description>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

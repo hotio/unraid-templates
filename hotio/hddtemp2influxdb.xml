@@ -11,7 +11,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/hddtemp2influxdb.png</Icon>
   <Overview>A docker image that reads hdd temperatures using smartctl and writes them to InfluxDB. To change the hostname sent to the influx database, edit the Extra Parameters. For nvme drives don't include the namespace, use nvme0 instead of nvme0n1.</Overview>
-  <Description>A docker image that reads hdd temperatures using smartctl and writes them to InfluxDB. To change the hostname sent to the influx database, edit the Extra Parameters. For nvme drives don't include the namespace, use nvme0 instead of nvme0n1.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>

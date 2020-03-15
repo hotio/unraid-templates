@@ -19,7 +19,7 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/nzbhydra2.png</Icon>
   <Overview>NZBHydra 2 is a meta search for newznab indexers and torznab trackers.</Overview>
-  <Description>NZBHydra 2 is a meta search for newznab indexers and torznab trackers.</Description>
+  <Description/>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>
