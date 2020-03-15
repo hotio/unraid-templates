@@ -10,8 +10,8 @@
   <Category>Downloaders: Other:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/rclone.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/rclone.png</Icon>
-  <Overview>Mount a remote filesystem using rclone. To access the rclone mount from another container, use '--volumes-from rclone' as an extra parameter to that container.</Overview>
-  <Description>Mount a remote filesystem using rclone. To access the rclone mount from another container, use '--volumes-from rclone' as an extra parameter to that container.</Description>
+  <Overview>Mount a remote filesystem using rclone. Read the README.md on the project page to get an understanding on how to interact with the mount on the host.</Overview>
+  <Description>Mount a remote filesystem using rclone. Read the README.md on the project page to get an understanding on how to interact with the mount on the host.</Description>
   <MyIP/>
   <DonateText/>
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>
