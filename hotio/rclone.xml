@@ -9,7 +9,7 @@
   <Project>https://github.com/hotio/docker-rclone</Project>
   <Category>Downloaders: Other:</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/rclone.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/rclone.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/rclone.png</Icon>
   <Overview>Mount a remote filesystem using rclone. To access the rclone mount from another container, use '--volumes-from rclone' as an extra parameter to that container.</Overview>
   <Description>Mount a remote filesystem using rclone. To access the rclone mount from another container, use '--volumes-from rclone' as an extra parameter to that container.</Description>
   <MyIP/>

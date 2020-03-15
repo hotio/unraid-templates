@@ -21,7 +21,7 @@
   <Project>https://github.com/hotio/docker-sonarr</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/sonarr.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/sonarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/sonarr.png</Icon>
   <Overview>Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.</Overview>
   <Description>Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.</Description>
   <MyIP/>

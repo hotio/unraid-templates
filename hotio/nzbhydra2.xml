@@ -17,7 +17,7 @@
   <Project>https://github.com/hotio/docker-nzbhydra2</Project>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/nzbhydra2.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/ee85bc424cb2f2edb2f04ecebbb0687e5abbb41b/hotio/img/nzbhydra2.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/nzbhydra2.png</Icon>
   <Overview>NZBHydra 2 is a meta search for newznab indexers and torznab trackers.</Overview>
   <Description>NZBHydra 2 is a meta search for newznab indexers and torznab trackers.</Description>
   <MyIP/>
