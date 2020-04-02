@@ -10,7 +10,7 @@
   <Category>Downloaders: MediaApp:Books</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/readarr.png</Icon>
-  <Overview>Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks).</Overview>
+  <Overview>Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks). WARNING: Updates require a fresh database until further notice</Overview>
   <Description/>
   <MyIP/>
   <DonateText/>
