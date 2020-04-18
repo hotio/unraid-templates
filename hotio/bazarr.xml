@@ -11,8 +11,12 @@
     <TagDescription>Unstable version, development branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>subsync</Tag>
+    <Tag>stable-subsync</Tag>
     <TagDescription>Stable version, subsync included</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable-subsync</Tag>
+    <TagDescription>Unstable version, subsync included</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   <Shell>bash</Shell>
