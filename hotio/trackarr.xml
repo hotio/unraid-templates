@@ -8,7 +8,7 @@
   </Branch>
   <Branch>
     <Tag>unstable</Tag>
-    <TagDescription>Unstable version, -dev release</TagDescription>
+    <TagDescription>Unstable version, every commit from develop branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/trackarr</Registry>
   <Shell>bash</Shell>
