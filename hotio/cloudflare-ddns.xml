@@ -35,6 +35,7 @@
   <Config Name="INFLUXDB_USER" Target="INFLUXDB_USER" Default="" Mode="" Description="Container Variable: INFLUXDB_USER" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="INFLUXDB_PASS" Target="INFLUXDB_PASS" Default="" Mode="" Description="Container Variable: INFLUXDB_PASS" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="CF_APITOKEN" Target="CF_APITOKEN" Default="" Mode="" Description="Container Variable: CF_APITOKEN" Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
+  <Config Name="CF_APITOKEN_ZONE" Target="CF_APITOKEN_ZONE" Default="" Mode="" Description="Container Variable: CF_APITOKEN_ZONE" Type="Variable" Display="advanced-hide" Required="false" Mask="true"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
