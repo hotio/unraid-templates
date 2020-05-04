@@ -33,7 +33,7 @@
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="Host Path for /downloads" Target="/downloads" Default="" Mode="rw" Description="Container Path: /downloads&amp;lt;br&amp;gt;The container path should be the same as in the Sonarr/Radarr/Lidarr containers." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads" Target="/downloads" Default="" Mode="rw" Description="Container Path: /downloads&amp;lt;br&amp;gt;The container path should be the same as in the Sonarr/Radarr/Lidarr containers.&amp;lt;br&amp;gt;If they use something besides /downloads, you'll probably have to edit (or remove and add your own) this configuration entry. Enable advanced mode to do this." Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="UN_SONARR_0_URL" Target="UN_SONARR_0_URL" Default="" Mode="" Description="Container Variable: UN_SONARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="UN_SONARR_0_API_KEY" Target="UN_SONARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_SONARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="UN_RADARR_0_URL" Target="UN_RADARR_0_URL" Default="" Mode="" Description="Container Variable: UN_RADARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
