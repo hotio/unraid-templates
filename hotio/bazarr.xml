@@ -10,14 +10,6 @@
     <Tag>unstable</Tag>
     <TagDescription>Unstable version, development branch</TagDescription>
   </Branch>
-  <Branch>
-    <Tag>stable-ffsubsync</Tag>
-    <TagDescription>Stable version, ffsubsync included</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>unstable-ffsubsync</Tag>
-    <TagDescription>Unstable version, ffsubsync included</TagDescription>
-  </Branch>
   <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
