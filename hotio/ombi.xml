@@ -4,15 +4,11 @@
   <Repository>hotio/ombi</Repository>
   <Branch>
     <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <TagDescription>v3 releases</TagDescription>
   </Branch>
   <Branch>
     <Tag>unstable</Tag>
-    <TagDescription>Unstable version, AppVeyor builds</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>v4</Tag>
-    <TagDescription>Very unstable version, V4 builds</TagDescription>
+    <TagDescription>v4 releases</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/ombi</Registry>
   <Shell>bash</Shell>
