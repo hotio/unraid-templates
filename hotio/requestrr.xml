@@ -4,7 +4,11 @@
   <Repository>hotio/requestrr</Repository>
   <Branch>
     <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <TagDescription>Stable releases</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable</Tag>
+    <TagDescription>Every commit to master branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/requestrr</Registry>
   <Shell>bash</Shell>
