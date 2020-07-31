@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>autoscan</Name>
+  <Repository>hotio/autoscan</Repository>
+  <Branch>
+    <Tag>stable</Tag>
+    <TagDescription>Stable version</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>unstable</Tag>
+    <TagDescription>Every commit to master</TagDescription>
+  </Branch>
+  <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/3SnkuKp</Support>
+  <Project>https://github.com/hotio/docker-autoscan</Project>
+  <Category>Other:</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon/>
+  <Overview>Autoscan replaces the default Plex and Emby behaviour for picking up file changes on the file system. Autoscan integrates with Sonarr, Radarr and Lidarr to fetch changes in near real-time without relying on the file system.</Overview>
+  <Description/>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
+  <DonateImg/>
+  <WebUI/>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="AUTOSCAN_VERBOSITY" Target="AUTOSCAN_VERBOSITY" Default="0|1|2" Mode="" Description="Container Variable: AUTOSCAN_VERBOSITY&amp;lt;br&amp;gt;0 - Info&amp;lt;br&amp;gt;1 - Debug&amp;lt;br&amp;gt;2 - Trace" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_LOGIN" Target="PLEX_LOGIN" Default="" Mode="" Description="Container Variable: PLEX_LOGIN" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_PASSWORD" Target="PLEX_PASSWORD" Default="" Mode="" Description="Container Variable: PLEX_PASSWORD" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
