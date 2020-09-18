@@ -8,7 +8,7 @@
   </Branch>
   <Branch>
     <Tag>unstable</Tag>
-    <TagDescription>Every commit to master</TagDescription>
+    <TagDescription>Every commit to master branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
   <Shell>bash</Shell>
