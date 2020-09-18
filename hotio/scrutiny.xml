@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>scrutiny</Name>
+  <Repository>hotio/scrutiny</Repository>
+  <Registry>https://hub.docker.com/r/hotio/scrutiny</Registry>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://discord.gg/3SnkuKp</Support>
+  <Project>https://github.com/hotio/docker-scrutiny</Project>
+  <Category>Other:</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon/>
+  <Overview>Hard Drive S.M.A.R.T Monitoring, Historical Trends and Real World Failure Thresholds</Overview>
+  <Description/>
+  <MyIP/>
+  <DonateText/>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
+  <DonateImg/>
+  <WebUI/>
+  <ExtraParams>-v /run/udev:/run/udev:ro -v /dev/disk:/dev/disk:ro</ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="INTERVAL" Target="INTERVAL" Default="86400" Mode="" Description="Container Variable: INTERVAL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="API_ENDPOINT" Target="API_ENDPOINT" Default="http://localhost:8080" Mode="" Description="Container Variable: API_ENDPOINT" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="MODE" Target="MODE" Default="both|web|collector" Mode="" Description="Container Variable: MODE" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
