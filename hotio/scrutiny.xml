@@ -25,7 +25,7 @@
   <DonateLink>https://github.com/sponsors/hotio</DonateLink>
   <DonateImg/>
   <WebUI/>
-  <ExtraParams>-v /run/udev:/run/udev:ro -v /dev/disk:/dev/disk:ro</ExtraParams/>
+  <ExtraParams>-v /run/udev:/run/udev:ro -v /dev/disk:/dev/disk:ro</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
