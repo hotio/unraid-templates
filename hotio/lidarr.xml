@@ -3,16 +3,16 @@
   <Name>lidarr</Name>
   <Repository>hotio/lidarr</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version, master branch</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>master branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>semi-stable</Tag>
-    <TagDescription>Semi-Stable version, develop branch</TagDescription>
+    <Tag>testing</Tag>
+    <TagDescription>develop branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version, nightly</TagDescription>
+    <Tag>nightly</Tag>
+    <TagDescription>nightly branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   <Shell>bash</Shell>

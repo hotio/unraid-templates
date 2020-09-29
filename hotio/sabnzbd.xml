@@ -3,16 +3,16 @@
   <Name>sabnzbd</Name>
   <Repository>hotio/sabnzbd</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version, pre-releases</TagDescription>
+    <Tag>testing</Tag>
+    <TagDescription>Pre-releases</TagDescription>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
-    <TagDescription>Every commit from develop branch</TagDescription>
+    <TagDescription>Every commit to develop branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/sabnzbd</Registry>
   <Shell>bash</Shell>

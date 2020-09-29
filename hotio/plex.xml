@@ -3,12 +3,12 @@
   <Name>plex</Name>
   <Repository>hotio/plex</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
   </Branch>
   <Branch>
     <Tag>autoscan</Tag>
-    <TagDescription>Stable version, includes Plex Autoscan</TagDescription>
+    <TagDescription>Releases, includes Plex Autoscan</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/plex</Registry>
   <Shell>bash</Shell>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>readarr</Name>
-  <Repository>hotio/readarr:unstable</Repository>
+  <Repository>hotio/readarr:nightly</Repository>
   <Registry>https://hub.docker.com/r/hotio/readarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

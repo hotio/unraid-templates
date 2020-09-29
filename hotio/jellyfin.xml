@@ -2,6 +2,14 @@
 <Container version="2">
   <Name>jellyfin</Name>
   <Repository>hotio/jellyfin</Repository>
+  <Branch>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit to master branch</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

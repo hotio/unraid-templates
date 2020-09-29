@@ -3,12 +3,12 @@
   <Name>mylar3</Name>
   <Repository>hotio/mylar3</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version, python3-dev branch</TagDescription>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit to python3-dev branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/mylar3</Registry>
   <Shell>bash</Shell>

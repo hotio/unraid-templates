@@ -3,11 +3,11 @@
   <Name>ombi</Name>
   <Repository>hotio/ombi</Repository>
   <Branch>
-    <Tag>stable</Tag>
+    <Tag>release</Tag>
     <TagDescription>v3 releases</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
+    <Tag>testing</Tag>
     <TagDescription>v4 releases</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/ombi</Registry>

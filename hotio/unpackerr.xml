@@ -3,16 +3,16 @@
   <Name>unpackerr</Name>
   <Repository>hotio/unpackerr</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
   </Branch>
   <Branch>
-    <Tag>semi-stable</Tag>
-    <TagDescription>Semi-Stable version, pre-releases</TagDescription>
+    <Tag>testing</Tag>
+    <TagDescription>Pre-releases</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version, every commit</TagDescription>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit to master branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
   <Shell>bash</Shell>

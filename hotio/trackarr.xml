@@ -3,12 +3,12 @@
   <Name>trackarr</Name>
   <Repository>hotio/trackarr</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version, every commit from develop branch</TagDescription>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit to develop branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/trackarr</Registry>
   <Shell>bash</Shell>

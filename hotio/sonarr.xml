@@ -3,16 +3,16 @@
   <Name>sonarr</Name>
   <Repository>hotio/sonarr</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version, V2</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>master branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version, V2</TagDescription>
+    <Tag>testing</Tag>
+    <TagDescription>develop branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>phantom</Tag>
-    <TagDescription>Unstable version, V3</TagDescription>
+    <Tag>nightly</Tag>
+    <TagDescription>phantom-develop branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/sonarr</Registry>
   <Shell>bash</Shell>

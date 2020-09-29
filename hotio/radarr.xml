@@ -3,16 +3,16 @@
   <Name>radarr</Name>
   <Repository>hotio/radarr</Repository>
   <Branch>
-    <Tag>stable</Tag>
-    <TagDescription>Stable version</TagDescription>
+    <Tag>release</Tag>
+    <TagDescription>master branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>unstable</Tag>
-    <TagDescription>Unstable version</TagDescription>
+    <Tag>testing</Tag>
+    <TagDescription>develop branch</TagDescription>
   </Branch>
   <Branch>
-    <Tag>aphrodite</Tag>
-    <TagDescription>Unstable version, V3, runs on Ubuntu 20.04</TagDescription>
+    <Tag>nightly</Tag>
+    <TagDescription>nightly branch</TagDescription>
   </Branch>
   <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   <Shell>bash</Shell>
