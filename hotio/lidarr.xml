@@ -17,11 +17,11 @@
   <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-lidarr</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/lidarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/lidarr.png</Icon>
   <Overview>Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them.</Overview>
   <Description/>
   <MyIP/>

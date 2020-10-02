@@ -13,11 +13,11 @@
   <Registry>https://hub.docker.com/r/hotio/nzbhydra2</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-nzbhydra2</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/nzbhydra2.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/nzbhydra2.png</Icon>
   <Overview>NZBHydra 2 is a meta search for newznab indexers and torznab trackers.</Overview>
   <Description/>
   <MyIP/>

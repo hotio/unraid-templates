@@ -17,11 +17,11 @@
   <Registry>https://hub.docker.com/r/hotio/sabnzbd</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-sabnzbd</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/sabnzbd.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/sabnzbd.png</Icon>
   <Overview>Free and easy binary newsreader.</Overview>
   <Description/>
   <MyIP/>

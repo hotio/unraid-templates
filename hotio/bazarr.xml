@@ -13,11 +13,11 @@
   <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-bazarr</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/bazarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/bazarr.png</Icon>
   <Overview>Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.</Overview>
   <Description/>
   <MyIP/>

@@ -13,11 +13,11 @@
   <Registry>https://hub.docker.com/r/hotio/ombi</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-ombi</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/ombi.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/ombi.png</Icon>
   <Overview>Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves.</Overview>
   <Description/>
   <MyIP/>

@@ -13,8 +13,8 @@
   <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-autoscan</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon/>

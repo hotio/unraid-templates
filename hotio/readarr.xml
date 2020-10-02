@@ -5,11 +5,11 @@
   <Registry>https://hub.docker.com/r/hotio/readarr</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-readarr</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders: MediaApp:Books</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/readarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/readarr.png</Icon>
   <Overview>Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks). WARNING: Updates require a fresh database until further notice</Overview>
   <Description/>
   <MyIP/>

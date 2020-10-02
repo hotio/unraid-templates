@@ -13,11 +13,11 @@
   <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/3SnkuKp</Support>
-  <Project>https://github.com/hotio/docker-tautulli</Project>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/tautulli.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/tautulli.png</Icon>
   <Overview>A Python based monitoring and tracking tool for Plex Media Server.</Overview>
   <Description/>
   <MyIP/>
