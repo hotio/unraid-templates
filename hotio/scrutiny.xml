@@ -14,7 +14,7 @@
   <Shell>bash</Shell>
   <Privileged>true</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev</Project>
+  <Project>https://hotio.dev/containers/scrutiny</Project>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/scrutiny.png</Icon>

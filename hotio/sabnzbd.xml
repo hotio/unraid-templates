@@ -18,7 +18,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev</Project>
+  <Project>https://hotio.dev/containers/sabnzbd</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/sabnzbd.png</Icon>

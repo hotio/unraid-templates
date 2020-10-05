@@ -14,7 +14,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev</Project>
+  <Project>https://hotio.dev/containers/autoscan</Project>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon/>

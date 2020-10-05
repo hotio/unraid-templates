@@ -14,7 +14,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev</Project>
+  <Project>https://hotio.dev/containers/plex</Project>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/plex.png</Icon>

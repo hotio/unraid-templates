@@ -14,7 +14,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev</Project>
+  <Project>https://hotio.dev/containers/nzbhydra2</Project>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/nzbhydra2.png</Icon>
