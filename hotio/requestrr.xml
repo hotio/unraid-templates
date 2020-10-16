@@ -17,9 +17,6 @@
   <Overview>Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat!</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI>http://[IP]:[PORT:4545]</WebUI>
   <ExtraParams/>
   <PostArgs/>

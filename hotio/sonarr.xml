@@ -25,9 +25,6 @@
   <Overview>Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI>http://[IP]:[PORT:8989]</WebUI>
   <ExtraParams/>
   <PostArgs/>

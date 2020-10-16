@@ -21,9 +21,6 @@
   <Overview>Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI>http://[IP]:[PORT:8090]</WebUI>
   <ExtraParams/>
   <PostArgs/>

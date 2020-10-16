@@ -13,9 +13,6 @@
   <Overview>Cloudflare DDNS updates for both ipv4 and ipv6.</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI/>
   <ExtraParams/>
   <PostArgs/>

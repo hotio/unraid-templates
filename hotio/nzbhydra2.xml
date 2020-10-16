@@ -21,9 +21,6 @@
   <Overview>NZBHydra 2 is a meta search for newznab indexers and torznab trackers.</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI>http://[IP]:[PORT:5076]</WebUI>
   <ExtraParams/>
   <PostArgs/>

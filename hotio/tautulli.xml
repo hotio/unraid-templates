@@ -21,9 +21,6 @@
   <Overview>A Python based monitoring and tracking tool for Plex Media Server.</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI>http://[IP]:[PORT:8181]</WebUI>
   <ExtraParams/>
   <PostArgs/>

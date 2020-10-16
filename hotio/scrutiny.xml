@@ -21,9 +21,6 @@
   <Overview>Hard Drive S.M.A.R.T Monitoring, Historical Trends and Real World Failure Thresholds</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI/>
   <ExtraParams>-v /run/udev:/run/udev:ro -v /dev/disk:/dev/disk:ro</ExtraParams>
   <PostArgs/>

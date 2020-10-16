@@ -21,9 +21,6 @@
   <Overview>The most efficient usenet downloader.</Overview>
   <Description/>
   <MyIP/>
-  <DonateText/>
-  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
-  <DonateImg/>
   <WebUI>http://[IP]:[PORT:6789]</WebUI>
   <ExtraParams/>
   <PostArgs/>
