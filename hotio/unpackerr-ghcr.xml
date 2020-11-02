@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>unpackerr-ghcr</Name>
+  <Repository>ghcr.io/hotio/unpackerr</Repository>
+  <Branch>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>testing</Tag>
+    <TagDescription>Pre-releases</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit to master branch</TagDescription>
+  </Branch>
+  <Registry>https://github.com/users/hotio/packages/container/package/unpackerr</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev/containers/unpackerr</Project>
+  <Category>Downloaders: Other:</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/unpackerr.png</Icon>
+  <Overview>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI/>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /downloads" Target="/downloads" Default="" Mode="rw" Description="Container Path: /downloads&amp;lt;br&amp;gt;The container path should be the same as in the Sonarr/Radarr/Lidarr containers.&amp;lt;br&amp;gt;If they use something besides /downloads, you'll probably have to edit (or remove and add your own) this configuration entry. Enable advanced mode to do this." Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="UN_SONARR_0_URL" Target="UN_SONARR_0_URL" Default="" Mode="" Description="Container Variable: UN_SONARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_SONARR_0_API_KEY" Target="UN_SONARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_SONARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="UN_RADARR_0_URL" Target="UN_RADARR_0_URL" Default="" Mode="" Description="Container Variable: UN_RADARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_RADARR_0_API_KEY" Target="UN_RADARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_RADARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="UN_LIDARR_0_URL" Target="UN_LIDARR_0_URL" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="UN_LIDARR_0_API_KEY" Target="UN_LIDARR_0_API_KEY" Default="" Mode="" Description="Container Variable: UN_LIDARR_0_API_KEY" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UN_DEBUG" Target="UN_DEBUG" Default="false|true" Mode="" Description="Container Variable: UN_DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>

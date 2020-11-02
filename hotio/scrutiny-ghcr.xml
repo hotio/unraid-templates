@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>scrutiny-ghcr</Name>
+  <Repository>ghcr.io/hotio/scrutiny</Repository>
+  <Branch>
+    <Tag>release</Tag>
+    <TagDescription>Releases</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>nightly</Tag>
+    <TagDescription>Every commit to master branch</TagDescription>
+  </Branch>
+  <Registry>https://github.com/users/hotio/packages/container/package/scrutiny</Registry>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev/containers/scrutiny</Project>
+  <Category>Other:</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/scrutiny.png</Icon>
+  <Overview>Hard Drive S.M.A.R.T Monitoring, Historical Trends and Real World Failure Thresholds</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI/>
+  <ExtraParams>-v /run/udev:/run/udev:ro -v /dev/disk:/dev/disk:ro</ExtraParams>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Port for 8080" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="INTERVAL" Target="INTERVAL" Default="86400" Mode="" Description="Container Variable: INTERVAL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="API_ENDPOINT" Target="API_ENDPOINT" Default="http://localhost:8080" Mode="" Description="Container Variable: API_ENDPOINT" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="MODE" Target="MODE" Default="both|web|collector" Mode="" Description="Container Variable: MODE" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
