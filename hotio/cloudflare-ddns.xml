@@ -3,6 +3,18 @@
   <Name>cloudflare-ddns</Name>
   <Repository>hotio/cloudflare-ddns</Repository>
   <Registry>https://hub.docker.com/r/hotio/cloudflare-ddns</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>The main branch</TagDescription>
+    <Repository>hotio/cloudflare-ddns:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/cloudflare-ddns</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>The main branch</TagDescription>
+    <Repository>ghcr.io/hotio/cloudflare-ddns:release</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/cloudflare-ddns</Registry>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>

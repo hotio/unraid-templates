@@ -2,15 +2,31 @@
 <Container version="2">
   <Name>bazarr</Name>
   <Repository>hotio/bazarr</Repository>
-  <Branch>
-    <Tag>release</Tag>
-    <TagDescription>Releases</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>nightly</Tag>
-    <TagDescription>Every commit to development branch</TagDescription>
-  </Branch>
   <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>hotio/bazarr:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
+  </Branch>
+  <Branch>
+    <Tag>nightly-dockerhub</Tag>
+    <TagDescription>Every commit to development branch</TagDescription>
+    <Repository>hotio/bazarr:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>ghcr.io/hotio/bazarr:release</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/bazarr</Registry>
+  </Branch>
+  <Branch>
+    <Tag>nightly-ghcr</Tag>
+    <TagDescription>Every commit to development branch</TagDescription>
+    <Repository>ghcr.io/hotio/bazarr:release</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/bazarr</Registry>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
