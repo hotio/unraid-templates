@@ -2,15 +2,31 @@
 <Container version="2">
   <Name>nzbhydra2</Name>
   <Repository>hotio/nzbhydra2</Repository>
-  <Branch>
-    <Tag>release</Tag>
-    <TagDescription>Releases</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>testing</Tag>
-    <TagDescription>Pre-releases</TagDescription>
-  </Branch>
   <Registry>https://hub.docker.com/r/hotio/nzbhydra2</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>hotio/nzbhydra2:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/nzbhydra2</Registry>
+  </Branch>
+  <Branch>
+    <Tag>testing-dockerhub</Tag>
+    <TagDescription>Pre-releases</TagDescription>
+    <Repository>hotio/nzbhydra2:testing</Repository>
+    <Registry>https://hub.docker.com/r/hotio/nzbhydra2</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>ghcr.io/hotio/nzbhydra2:release</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/nzbhydra2</Registry>
+  </Branch>
+  <Branch>
+    <Tag>testing-ghcr</Tag>
+    <TagDescription>Pre-releases</TagDescription>
+    <Repository>ghcr.io/hotio/nzbhydra2:testing</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/nzbhydra2</Registry>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
