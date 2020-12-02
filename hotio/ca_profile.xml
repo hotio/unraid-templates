@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://gravatar.com/userimage/193980627/ee238d185aa7034dd694cd3ea2e5b109.png</Icon>
+  <Profile>
+    This is my profile. What follows next is profile page material and filler text. So let us begin... Once upon a time there was a little boy who made docker images with his bare hands, blood, sweat and tears. People can use these images to make a docker container from them. The boy once asked Tina Turner what she thought about his images... she replied "They're simply the best, better than all the rest". The boy was stunned and speechless by the kind words from Tina. But seriously, I try to do my best to adhere to what people call "the docker way", so no installation of apps on startup from me, just fast image updates that are tested before they get pushed to DockerHub and GitHub Container Registry. If you join the discord server you can look at a feed with pretty screenshots from all the new image releases. Some marketing mumbo jumbo now... they are "Optimized for Linux", "2x smaller than the nearest competitor", "Love Inside", "Designed and assembled in Europe". I maybe lied about the "assembled in Europe part", no idea where GitHub has their server stored that executes my GitHub Action.
+  </Profile>
+  <DonateLink>https://github.com/sponsors/hotio</DonateLink>
+  <DonateText>You can become a GitHub sponsor or send some crypto...</DonateText>
+  <Discord>https://hotio.dev/discord</Discord>
+</Maintainer>
