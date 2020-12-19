@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>overseerr</Name>
+  <Repository>hotio/overseerr</Repository>
+  <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>hotio/overseerr:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
+  </Branch>
+  <Branch>
+    <Tag>nightly-dockerhub</Tag>
+    <TagDescription>Every commit to develop branch</TagDescription>
+    <Repository>hotio/overseerr:nightly</Repository>
+    <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>ghcr.io/hotio/overseerr:release</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/overseerr</Registry>
+  </Branch>
+  <Branch>
+    <Tag>nightly-ghcr</Tag>
+    <TagDescription>Every commit to develop branch</TagDescription>
+    <Repository>ghcr.io/hotio/overseerr:nightly</Repository>
+    <Registry>https://github.com/users/hotio/packages/container/package/overseerr</Registry>
+  </Branch>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev/containers/overseerr</Project>
+  <Category>Downloaders: MediaApp:Other</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/overseerr.png</Icon>
+  <Overview>Request management and media discovery tool for the Plex ecosystem.</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI>http://[IP]:[PORT:5055]</WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Port for 5055" Target="5055" Default="5055" Mode="tcp" Description="Container Port: 5055" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
