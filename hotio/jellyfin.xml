@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/jellyfin:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/jellyfin</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/jellyfin</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
     <TagDescription>Every commit to master branch</TagDescription>
     <Repository>ghcr.io/hotio/jellyfin:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/jellyfin</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/jellyfin</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

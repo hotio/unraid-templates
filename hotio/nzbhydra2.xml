@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/nzbhydra2:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/nzbhydra2</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/nzbhydra2</Registry>
   </Branch>
   <Branch>
     <Tag>testing-ghcr</Tag>
     <TagDescription>Pre-releases</TagDescription>
     <Repository>ghcr.io/hotio/nzbhydra2:testing</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/nzbhydra2</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/nzbhydra2</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

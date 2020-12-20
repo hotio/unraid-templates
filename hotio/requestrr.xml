@@ -13,7 +13,7 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/requestrr:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/requestrr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/requestrr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

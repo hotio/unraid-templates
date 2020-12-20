@@ -13,7 +13,7 @@
     <Tag>nightly-ghcr</Tag>
     <TagDescription>Nightly builds</TagDescription>
     <Repository>ghcr.io/hotio/readarr:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/readarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/readarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

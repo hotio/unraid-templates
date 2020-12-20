@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/tautulli:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/tautulli</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/tautulli</Registry>
   </Branch>
   <Branch>
     <Tag>testing-ghcr</Tag>
     <TagDescription>Pre-releases</TagDescription>
     <Repository>ghcr.io/hotio/tautulli:testing</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/tautulli</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/tautulli</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

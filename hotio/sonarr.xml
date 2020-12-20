@@ -25,19 +25,19 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>master branch</TagDescription>
     <Repository>ghcr.io/hotio/sonarr:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/sonarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/sonarr</Registry>
   </Branch>
   <Branch>
     <Tag>testing-ghcr</Tag>
     <TagDescription>develop branch</TagDescription>
     <Repository>ghcr.io/hotio/sonarr:testing</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/sonarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/sonarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
     <TagDescription>phantom-develop branch</TagDescription>
     <Repository>ghcr.io/hotio/sonarr:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/sonarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/sonarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

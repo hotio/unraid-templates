@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/scrutiny:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/scrutiny</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/scrutiny</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
     <TagDescription>Every commit to master branch</TagDescription>
     <Repository>ghcr.io/hotio/scrutiny:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/scrutiny</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/scrutiny</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>true</Privileged>

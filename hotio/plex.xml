@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/plex:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/plex</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/plex</Registry>
   </Branch>
   <Branch>
     <Tag>autoscan-ghcr</Tag>
     <TagDescription>Releases, includes Plex Autoscan</TagDescription>
     <Repository>ghcr.io/hotio/plex:autoscan</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/plex</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/plex</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

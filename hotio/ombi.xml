@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>v3 releases</TagDescription>
     <Repository>ghcr.io/hotio/ombi:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/ombi</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/ombi</Registry>
   </Branch>
   <Branch>
     <Tag>testing-ghcr</Tag>
     <TagDescription>v4 releases</TagDescription>
     <Repository>ghcr.io/hotio/ombi:testing</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/ombi</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/ombi</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

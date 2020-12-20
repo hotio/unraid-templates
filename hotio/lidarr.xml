@@ -25,19 +25,19 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>master branch</TagDescription>
     <Repository>ghcr.io/hotio/lidarr:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/lidarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/lidarr</Registry>
   </Branch>
   <Branch>
     <Tag>testing-ghcr</Tag>
     <TagDescription>develop branch</TagDescription>
     <Repository>ghcr.io/hotio/lidarr:testing</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/lidarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/lidarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
     <TagDescription>nightly branch</TagDescription>
     <Repository>ghcr.io/hotio/lidarr:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/lidarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/lidarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

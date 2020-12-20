@@ -25,19 +25,19 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>master branch</TagDescription>
     <Repository>ghcr.io/hotio/radarr:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/radarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/radarr</Registry>
   </Branch>
   <Branch>
     <Tag>testing-ghcr</Tag>
     <TagDescription>develop branch</TagDescription>
     <Repository>ghcr.io/hotio/radarr:testing</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/radarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/radarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
     <TagDescription>nightly branch</TagDescription>
     <Repository>ghcr.io/hotio/radarr:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/radarr</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/radarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

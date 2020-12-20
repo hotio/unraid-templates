@@ -19,13 +19,13 @@
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/mylar3:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/mylar3</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/mylar3</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
     <TagDescription>Every commit to python3-dev branch</TagDescription>
     <Repository>ghcr.io/hotio/mylar3:nightly</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/mylar3</Registry>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/mylar3</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

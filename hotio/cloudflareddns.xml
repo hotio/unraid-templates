@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>cloudflare-ddns</Name>
-  <Repository>hotio/cloudflare-ddns</Repository>
-  <Registry>https://hub.docker.com/r/hotio/cloudflare-ddns</Registry>
+  <Name>cloudflareddns</Name>
+  <Repository>hotio/cloudflareddns</Repository>
+  <Registry>https://hub.docker.com/r/hotio/cloudflareddns</Registry>
   <Branch>
     <Tag>release-dockerhub</Tag>
     <TagDescription>The main branch</TagDescription>
-    <Repository>hotio/cloudflare-ddns:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/cloudflare-ddns</Registry>
+    <Repository>hotio/cloudflareddns:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/cloudflareddns</Registry>
   </Branch>
   <Branch>
     <Tag>release-ghcr</Tag>
     <TagDescription>The main branch</TagDescription>
-    <Repository>ghcr.io/hotio/cloudflare-ddns:release</Repository>
-    <Registry>https://github.com/users/hotio/packages/container/package/cloudflare-ddns</Registry>
+    <Repository>ghcr.io/hotio/cloudflareddns:release</Repository>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/cloudflareddns</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev/containers/cloudflare-ddns</Project>
+  <Project>https://hotio.dev/containers/cloudflareddns</Project>
   <Category>Network:DNS</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/cloudflare-ddns.png</Icon>
+  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/cloudflareddns.png</Icon>
   <Overview>Cloudflare DDNS updates for both ipv4 and ipv6.</Overview>
   <Description/>
   <MyIP/>
