@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/scrutiny</Project>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/scrutiny.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/scrutiny.png</Icon>
   <Overview>Hard Drive S.M.A.R.T Monitoring, Historical Trends and Real World Failure Thresholds</Overview>
   <Description/>
   <MyIP/>

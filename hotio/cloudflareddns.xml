@@ -21,7 +21,7 @@
   <Project>https://hotio.dev/containers/cloudflareddns</Project>
   <Category>Network:DNS</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/cloudflareddns.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/cloudflareddns.png</Icon>
   <Overview>Cloudflare DDNS updates for both ipv4 and ipv6.</Overview>
   <Description/>
   <MyIP/>

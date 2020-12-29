@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/jackett</Project>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/jackett.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/jackett.png</Icon>
   <Overview>Jackett works as a proxy server: it translates queries from apps into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.</Overview>
   <Description/>
   <MyIP/>

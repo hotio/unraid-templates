@@ -45,7 +45,7 @@
   <Project>https://hotio.dev/containers/radarr</Project>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/docker-hotio/unraid-templates/master/hotio/img/radarr.png</Icon>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/radarr.png</Icon>
   <Overview>Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.</Overview>
   <Description/>
   <MyIP/>
