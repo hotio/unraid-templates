@@ -38,7 +38,7 @@
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:3875]</WebUI>
-  <ExtraParams/>
+  <ExtraParams>--hostname=duplicacy</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 3875" Target="3875" Default="3875" Mode="tcp" Description="Container Port: 3875" Type="Port" Display="always-hide" Required="true" Mask="false"/>
