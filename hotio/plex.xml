@@ -10,21 +10,9 @@
     <Registry>https://hub.docker.com/r/hotio/plex</Registry>
   </Branch>
   <Branch>
-    <Tag>autoscan-dockerhub</Tag>
-    <TagDescription>Releases, includes Plex Autoscan</TagDescription>
-    <Repository>hotio/plex:autoscan</Repository>
-    <Registry>https://hub.docker.com/r/hotio/plex</Registry>
-  </Branch>
-  <Branch>
     <Tag>release-ghcr</Tag>
     <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/plex:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/plex</Registry>
-  </Branch>
-  <Branch>
-    <Tag>autoscan-ghcr</Tag>
-    <TagDescription>Releases, includes Plex Autoscan</TagDescription>
-    <Repository>ghcr.io/hotio/plex:autoscan</Repository>
     <Registry>https://github.com/orgs/hotio/packages/container/package/plex</Registry>
   </Branch>
   <Shell>bash</Shell>
