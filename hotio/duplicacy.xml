@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>duplicacy</Name>
+  <Repository>hotio/duplicacy</Repository>
+  <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>Stable channel</TagDescription>
+    <Repository>hotio/duplicacy:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
+  </Branch>
+  <Branch>
+    <Tag>testing-dockerhub</Tag>
+    <TagDescription>Latest channel</TagDescription>
+    <Repository>hotio/duplicacy:testing</Repository>
+    <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>Stable channel</TagDescription>
+    <Repository>ghcr.io/hotio/duplicacy:release</Repository>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/duplicacy</Registry>
+  </Branch>
+  <Branch>
+    <Tag>testing-ghcr</Tag>
+    <TagDescription>Latest channel</TagDescription>
+    <Repository>ghcr.io/hotio/duplicacy:testing</Repository>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/duplicacy</Registry>
+  </Branch>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev/containers/duplicacy</Project>
+  <Category>Backup:</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/duplicacy.png</Icon>
+  <Overview>A new generation cross-platform cloud backup tool.</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI>http://[IP]:[PORT:3875]</WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Port for 3875" Target="3875" Default="3875" Mode="tcp" Description="Container Port: 3875" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /cache" Target="/cache" Default="" Mode="rw" Description="Container Path: /cache" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /logs" Target="/logs" Default="" Mode="rw" Description="Container Path: /logs" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="DEBUG" Target="DEBUG" Default="no|yes" Mode="" Description="Container Variable: DEBUG" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
