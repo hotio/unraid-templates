@@ -4,8 +4,8 @@
   <Profile>
     I maintain a few docker images (Ubuntu or Alpine based) and try to deliver incredibly fast updates, all automated and tested before pushing them into the world.
   </Profile>
-  <DonateLink>https://github.com/sponsors/mrhotio</DonateLink>
-  <DonateText>You can become a GitHub sponsor or send some crypto...</DonateText>
+  <DonateLink>https://hotio.dev/donate</DonateLink>
+  <DonateText>You can become a GitHub sponsor, use Open Collective or send some Crypto...</DonateText>
   <Discord>https://hotio.dev/discord</Discord>
   <WebPage>https://hotio.dev</WebPage>
 </Maintainer>
