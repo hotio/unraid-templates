@@ -37,7 +37,7 @@
   <Overview>Hard Drive S.M.A.R.T Monitoring, Historical Trends and Real World Failure Thresholds</Overview>
   <Description/>
   <MyIP/>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <ExtraParams>-v /run/udev:/run/udev:ro -v /dev/disk:/dev/disk:ro</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
