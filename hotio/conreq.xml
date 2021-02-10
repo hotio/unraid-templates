@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>conreq</Name>
+  <Repository>hotio/conreq</Repository>
+  <Registry>https://hub.docker.com/r/hotio/conreq</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>main branch</TagDescription>
+    <Repository>hotio/conreq:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/conreq</Registry>
+  </Branch>
+  <Branch>
+    <Tag>nightly-dockerhub</Tag>
+    <TagDescription>develop branch</TagDescription>
+    <Repository>hotio/conreq:nightly</Repository>
+    <Registry>https://hub.docker.com/r/hotio/conreq</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>main branch</TagDescription>
+    <Repository>ghcr.io/hotio/conreq:release</Repository>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/conreq</Registry>
+  </Branch>
+  <Branch>
+    <Tag>nightly-ghcr</Tag>
+    <TagDescription>develop branch</TagDescription>
+    <Repository>ghcr.io/hotio/conreq:nightly</Repository>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/conreq</Registry>
+  </Branch>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev/containers/conreq</Project>
+  <Category>MediaApp:Other</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/conreq.png</Icon>
+  <Overview>Conreq, a Content Requesting platform.</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Port for 8000" Target="8000" Default="8000" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
