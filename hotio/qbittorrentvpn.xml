@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>qbittorrentvpn</Name>
+  <Name>qbittorrent-vpn</Name>
   <Repository>hotio/qbittorrent</Repository>
   <Registry>https://hub.docker.com/r/hotio/qbittorrent</Registry>
   <Branch>
