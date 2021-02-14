@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>rflood</Name>
+  <Name>rflood-vpn</Name>
   <Repository>hotio/rflood</Repository>
   <Registry>https://hub.docker.com/r/hotio/rflood</Registry>
   <Branch>
