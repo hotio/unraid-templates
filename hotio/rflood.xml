@@ -5,13 +5,13 @@
   <Registry>https://hub.docker.com/r/hotio/rflood</Registry>
   <Branch>
     <Tag>release-dockerhub</Tag>
-    <TagDescription>GitHub Releases</TagDescription>
+    <TagDescription>Releases</TagDescription>
     <Repository>hotio/rflood:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/rflood</Registry>
   </Branch>
   <Branch>
     <Tag>release-ghcr</Tag>
-    <TagDescription>GitHub Releases</TagDescription>
+    <TagDescription>Releases</TagDescription>
     <Repository>ghcr.io/hotio/rflood:release</Repository>
     <Registry>https://github.com/orgs/hotio/packages/container/package/rflood</Registry>
   </Branch>

@@ -34,7 +34,7 @@
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/qbittorrent.png</Icon>
-  <Overview>The qBittorrent project aims to provide an open-source software alternative to µTorrent.</Overview>
+  <Overview>Docker image with qBittorrent and bundled with the alternative VueTorrent Web UI.</Overview>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
