@@ -5,25 +5,25 @@
   <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
   <Branch>
     <Tag>release-dockerhub</Tag>
-    <TagDescription>Releases</TagDescription>
+    <TagDescription>Stable</TagDescription>
     <Repository>hotio/jellyfin:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-dockerhub</Tag>
-    <TagDescription>Every commit to master branch</TagDescription>
+    <TagDescription>Unstable</TagDescription>
     <Repository>hotio/jellyfin:nightly</Repository>
     <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
   </Branch>
   <Branch>
     <Tag>release-ghcr</Tag>
-    <TagDescription>Releases</TagDescription>
+    <TagDescription>Stable</TagDescription>
     <Repository>ghcr.io/hotio/jellyfin:release</Repository>
     <Registry>https://github.com/orgs/hotio/packages/container/package/jellyfin</Registry>
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
-    <TagDescription>Every commit to master branch</TagDescription>
+    <TagDescription>Unstable</TagDescription>
     <Repository>ghcr.io/hotio/jellyfin:nightly</Repository>
     <Registry>https://github.com/orgs/hotio/packages/container/package/jellyfin</Registry>
   </Branch>
