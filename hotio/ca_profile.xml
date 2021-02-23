@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://gravatar.com/userimage/193980627/ee238d185aa7034dd694cd3ea2e5b109.png</Icon>
+  <Icon>https://avatars.githubusercontent.com/u/26902309</Icon>
   <Profile>
     I maintain a few docker images (Ubuntu or Alpine based) and try to deliver incredibly fast updates, all automated and tested before pushing them into the world.
   </Profile>
