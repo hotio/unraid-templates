@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/duplicacy</Project>
   <Category>Backup:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/duplicacy.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/duplicacy.png</Icon>
   <Overview>A new generation cross-platform cloud backup tool.</Overview>
   <Description/>
   <MyIP/>

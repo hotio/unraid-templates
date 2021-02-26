@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/overseerr</Project>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/overseerr.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/overseerr.png</Icon>
   <Overview>Request management and media discovery tool for the Plex ecosystem.</Overview>
   <Description/>
   <MyIP/>

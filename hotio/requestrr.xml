@@ -21,7 +21,7 @@
   <Project>https://hotio.dev/containers/requestrr</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/requestrr.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/requestrr.png</Icon>
   <Overview>Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat!</Overview>
   <Description/>
   <MyIP/>

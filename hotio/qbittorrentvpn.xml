@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/qbittorrent</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/qbittorrent.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/qbittorrent.png</Icon>
   <Overview>Docker image with qBittorrent and bundled with the alternative VueTorrent Web UI, with pre-configured VPN template settings.</Overview>
   <Description/>
   <MyIP/>

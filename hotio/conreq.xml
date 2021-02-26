@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/conreq</Project>
   <Category>MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/conreq.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/conreq.png</Icon>
   <Overview>Conreq, a Content Requesting platform.</Overview>
   <Description/>
   <MyIP/>

@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/nzbget</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/nzbget.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/nzbget.png</Icon>
   <Overview>The most efficient usenet downloader.</Overview>
   <Description/>
   <MyIP/>

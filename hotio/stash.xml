@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/stash</Project>
   <Category>MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/stash.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/stash.png</Icon>
   <Overview>An organizer for your adult media, written in Go.</Overview>
   <Description/>
   <MyIP/>

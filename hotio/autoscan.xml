@@ -33,7 +33,7 @@
   <Project>https://hotio.dev/containers/autoscan</Project>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon/>
+  <Icon>https://hotio.dev/webhook-avatars/pullio.png</Icon>
   <Overview>Autoscan replaces the default Plex and Emby behaviour for picking up file changes on the file system. Autoscan integrates with Sonarr, Radarr and Lidarr to fetch changes in near real-time without relying on the file system.</Overview>
   <Description/>
   <MyIP/>

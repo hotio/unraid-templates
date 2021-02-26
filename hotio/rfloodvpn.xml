@@ -21,7 +21,7 @@
   <Project>https://hotio.dev/containers/rflood</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/rflood.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/flood.png</Icon>
   <Overview>Docker image with rTorrent and the Flood UI, with pre-configured VPN template settings.</Overview>
   <Description/>
   <MyIP/>

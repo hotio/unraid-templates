@@ -21,7 +21,7 @@
   <Project>https://hotio.dev/containers/qflood</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/qflood.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/flood.png</Icon>
   <Overview>Docker image with qBittorrent and the Flood UI.</Overview>
   <Description/>
   <MyIP/>

@@ -45,7 +45,7 @@
   <Project>https://hotio.dev/containers/sabnzbd</Project>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/sabnzbd.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/sabnzbd.png</Icon>
   <Overview>Free and easy binary newsreader.</Overview>
   <Description/>
   <MyIP/>

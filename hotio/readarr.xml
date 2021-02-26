@@ -21,7 +21,7 @@
   <Project>https://hotio.dev/containers/readarr</Project>
   <Category>Downloaders: MediaApp:Books</Category>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/readarr.png</Icon>
+  <Icon>https://hotio.dev/webhook-avatars/readarr.png</Icon>
   <Overview>Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks). WARNING: Updates require a fresh database until further notice</Overview>
   <Description/>
   <MyIP/>
