@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>caddy</Name>
+  <Repository>hotio/caddy</Repository>
+  <Registry>https://hub.docker.com/r/hotio/caddy</Registry>
+  <Branch>
+    <Tag>release-dockerhub</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>hotio/caddy:release</Repository>
+    <Registry>https://hub.docker.com/r/hotio/caddy</Registry>
+  </Branch>
+  <Branch>
+    <Tag>release-ghcr</Tag>
+    <TagDescription>Releases</TagDescription>
+    <Repository>ghcr.io/hotio/caddy:release</Repository>
+    <Registry>https://github.com/orgs/hotio/packages/container/package/caddy</Registry>
+  </Branch>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hotio.dev/discord</Support>
+  <Project>https://hotio.dev/containers/caddy</Project>
+  <Category>Network:Web</Category>
+  <TemplateURL>false</TemplateURL>
+  <Icon>https://hotio.dev/webhook-avatars/caddy.png</Icon>
+  <Overview>Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Host Port for 8080" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Port for 8443" Target="8443" Default="8443" Mode="tcp" Description="Container Port: 8443" Type="Port" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
