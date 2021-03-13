@@ -11,7 +11,7 @@
   </Branch>
   <Branch>
     <Tag>nightly-dockerhub</Tag>
-    <TagDescription>Every commit to development branch</TagDescription>
+    <TagDescription>Pre-releases</TagDescription>
     <Repository>hotio/bazarr:nightly</Repository>
     <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   </Branch>
@@ -23,7 +23,7 @@
   </Branch>
   <Branch>
     <Tag>nightly-ghcr</Tag>
-    <TagDescription>Every commit to development branch</TagDescription>
+    <TagDescription>Pre-releases</TagDescription>
     <Repository>ghcr.io/hotio/bazarr:nightly</Repository>
     <Registry>https://github.com/orgs/hotio/packages/container/package/bazarr</Registry>
   </Branch>
