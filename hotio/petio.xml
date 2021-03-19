@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/hotio/petio</Registry>
   <Branch>
     <Tag>release-dockerhub</Tag>
-    <TagDescription>master branch</TagDescription>
+    <TagDescription>releases</TagDescription>
     <Repository>hotio/petio:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/petio</Registry>
   </Branch>
@@ -23,7 +23,7 @@
   </Branch>
   <Branch>
     <Tag>release-ghcr</Tag>
-    <TagDescription>master branch</TagDescription>
+    <TagDescription>releases</TagDescription>
     <Repository>ghcr.io/hotio/petio:release</Repository>
     <Registry>https://github.com/orgs/hotio/packages/container/package/petio</Registry>
   </Branch>
