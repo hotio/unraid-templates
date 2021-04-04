@@ -22,7 +22,7 @@
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/plex.png</Icon>
-  <Overview>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates. Plex Autoscan is also included with the "autoscan" tag.</Overview>
+  <Overview>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates.</Overview>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:32400]/web</WebUI>
