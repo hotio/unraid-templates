@@ -31,7 +31,7 @@
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="BOT_TOKEN" Target="BOT_TOKEN" Default="" Mode="" Description="Container Variable: BOT_TOKEN" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="ROLE_ID" Target="ROLE_ID" Default="" Mode="" Description="Container Variable: ROLE_ID" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="ROLE_ID" Target="ROLE_ID" Default="" Mode="" Description="Container Variable: ROLE_ID" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="RADARR_URL" Target="RADARR_URL" Default="" Mode="" Description="Container Variable: RADARR_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="RADARR_API" Target="RADARR_API" Default="" Mode="" Description="Container Variable: RADARR_API" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="SONARR_URL" Target="SONARR_URL" Default="" Mode="" Description="Container Variable: SONARR_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
