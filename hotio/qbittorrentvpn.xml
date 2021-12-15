@@ -1,31 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>qbittorrent-vpn</Name>
-  <Repository>hotio/qbittorrent</Repository>
+  <Repository>cr.hotio.dev/hotio/qbittorrent</Repository>
   <Registry>https://hub.docker.com/r/hotio/qbittorrent</Registry>
   <Branch>
-    <Tag>release-dockerhub</Tag>
+    <Tag>release</Tag>
     <TagDescription>Stable</TagDescription>
-    <Repository>hotio/qbittorrent:release</Repository>
+    <Repository>cr.hotio.dev/hotio/qbittorrent:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/qbittorrent</Registry>
-  </Branch>
-  <Branch>
-    <Tag>testing-dockerhub</Tag>
-    <TagDescription>Unstable</TagDescription>
-    <Repository>hotio/qbittorrent:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/qbittorrent</Registry>
-  </Branch>
-  <Branch>
-    <Tag>release-ghcr</Tag>
-    <TagDescription>Stable</TagDescription>
-    <Repository>ghcr.io/hotio/qbittorrent:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/qbittorrent</Registry>
-  </Branch>
-  <Branch>
-    <Tag>testing-ghcr</Tag>
-    <TagDescription>Unstable</TagDescription>
-    <Repository>ghcr.io/hotio/qbittorrent:testing</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/qbittorrent</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

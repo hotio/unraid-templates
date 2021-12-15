@@ -1,43 +1,25 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>petio</Name>
-  <Repository>hotio/petio</Repository>
+  <Repository>cr.hotio.dev/hotio/petio</Repository>
   <Registry>https://hub.docker.com/r/hotio/petio</Registry>
   <Branch>
-    <Tag>release-dockerhub</Tag>
+    <Tag>release</Tag>
     <TagDescription>releases</TagDescription>
-    <Repository>hotio/petio:release</Repository>
+    <Repository>cr.hotio.dev/hotio/petio:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/petio</Registry>
   </Branch>
   <Branch>
-    <Tag>testing-dockerhub</Tag>
+    <Tag>testing</Tag>
     <TagDescription>preview branch</TagDescription>
-    <Repository>hotio/petio:testing</Repository>
+    <Repository>cr.hotio.dev/hotio/petio:testing</Repository>
     <Registry>https://hub.docker.com/r/hotio/petio</Registry>
   </Branch>
   <Branch>
-    <Tag>nightly-dockerhub</Tag>
+    <Tag>nightly</Tag>
     <TagDescription>dev branch</TagDescription>
-    <Repository>hotio/petio:nightly</Repository>
+    <Repository>cr.hotio.dev/hotio/petio:nightly</Repository>
     <Registry>https://hub.docker.com/r/hotio/petio</Registry>
-  </Branch>
-  <Branch>
-    <Tag>release-ghcr</Tag>
-    <TagDescription>releases</TagDescription>
-    <Repository>ghcr.io/hotio/petio:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/petio</Registry>
-  </Branch>
-  <Branch>
-    <Tag>testing-ghcr</Tag>
-    <TagDescription>preview branch</TagDescription>
-    <Repository>ghcr.io/hotio/petio:testing</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/petio</Registry>
-  </Branch>
-  <Branch>
-    <Tag>nightly-ghcr</Tag>
-    <TagDescription>dev branch</TagDescription>
-    <Repository>ghcr.io/hotio/petio:nightly</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/petio</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

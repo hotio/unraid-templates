@@ -1,31 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ombi</Name>
-  <Repository>hotio/ombi</Repository>
+  <Repository>cr.hotio.dev/hotio/ombi</Repository>
   <Registry>https://hub.docker.com/r/hotio/ombi</Registry>
   <Branch>
-    <Tag>release-dockerhub</Tag>
+    <Tag>release</Tag>
     <TagDescription>v3 releases</TagDescription>
-    <Repository>hotio/ombi:release</Repository>
+    <Repository>cr.hotio.dev/hotio/ombi:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/ombi</Registry>
   </Branch>
   <Branch>
-    <Tag>testing-dockerhub</Tag>
+    <Tag>testing</Tag>
     <TagDescription>v4 releases</TagDescription>
-    <Repository>hotio/ombi:testing</Repository>
+    <Repository>cr.hotio.dev/hotio/ombi:testing</Repository>
     <Registry>https://hub.docker.com/r/hotio/ombi</Registry>
-  </Branch>
-  <Branch>
-    <Tag>release-ghcr</Tag>
-    <TagDescription>v3 releases</TagDescription>
-    <Repository>ghcr.io/hotio/ombi:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/ombi</Registry>
-  </Branch>
-  <Branch>
-    <Tag>testing-ghcr</Tag>
-    <TagDescription>v4 releases</TagDescription>
-    <Repository>ghcr.io/hotio/ombi:testing</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/ombi</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

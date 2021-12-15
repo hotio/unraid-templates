@@ -1,19 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>doplarr</Name>
-  <Repository>hotio/doplarr</Repository>
+  <Repository>cr.hotio.dev/hotio/doplarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/doplarr</Registry>
   <Branch>
-    <Tag>release-dockerhub</Tag>
+    <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>hotio/doplarr:release</Repository>
+    <Repository>cr.hotio.dev/hotio/doplarr:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/doplarr</Registry>
-  </Branch>
-  <Branch>
-    <Tag>release-ghcr</Tag>
-    <TagDescription>Releases</TagDescription>
-    <Repository>ghcr.io/hotio/doplarr:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/doplarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

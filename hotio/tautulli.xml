@@ -1,31 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>tautulli</Name>
-  <Repository>hotio/tautulli</Repository>
+  <Repository>cr.hotio.dev/hotio/tautulli</Repository>
   <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
   <Branch>
-    <Tag>release-dockerhub</Tag>
+    <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>hotio/tautulli:release</Repository>
+    <Repository>cr.hotio.dev/hotio/tautulli:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
   </Branch>
   <Branch>
-    <Tag>testing-dockerhub</Tag>
+    <Tag>testing</Tag>
     <TagDescription>Pre-releases</TagDescription>
-    <Repository>hotio/tautulli:testing</Repository>
+    <Repository>cr.hotio.dev/hotio/tautulli:testing</Repository>
     <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
-  </Branch>
-  <Branch>
-    <Tag>release-ghcr</Tag>
-    <TagDescription>Releases</TagDescription>
-    <Repository>ghcr.io/hotio/tautulli:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/tautulli</Registry>
-  </Branch>
-  <Branch>
-    <Tag>testing-ghcr</Tag>
-    <TagDescription>Pre-releases</TagDescription>
-    <Repository>ghcr.io/hotio/tautulli:testing</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/tautulli</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

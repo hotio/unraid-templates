@@ -1,31 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>nzbget</Name>
-  <Repository>hotio/nzbget</Repository>
+  <Repository>cr.hotio.dev/hotio/nzbget</Repository>
   <Registry>https://hub.docker.com/r/hotio/nzbget</Registry>
   <Branch>
-    <Tag>release-dockerhub</Tag>
+    <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>hotio/nzbget:release</Repository>
+    <Repository>cr.hotio.dev/hotio/nzbget:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/nzbget</Registry>
   </Branch>
   <Branch>
-    <Tag>testing-dockerhub</Tag>
+    <Tag>testing</Tag>
     <TagDescription>Pre-releases</TagDescription>
-    <Repository>hotio/nzbget:testing</Repository>
+    <Repository>cr.hotio.dev/hotio/nzbget:testing</Repository>
     <Registry>https://hub.docker.com/r/hotio/nzbget</Registry>
-  </Branch>
-  <Branch>
-    <Tag>release-ghcr</Tag>
-    <TagDescription>Releases</TagDescription>
-    <Repository>ghcr.io/hotio/nzbget:release</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/nzbget</Registry>
-  </Branch>
-  <Branch>
-    <Tag>testing-ghcr</Tag>
-    <TagDescription>Pre-releases</TagDescription>
-    <Repository>ghcr.io/hotio/nzbget:testing</Repository>
-    <Registry>https://github.com/orgs/hotio/packages/container/package/nzbget</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
