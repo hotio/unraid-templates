@@ -9,6 +9,12 @@
     <Repository>cr.hotio.dev/hotio/qbitmanage:release</Repository>
     <Registry>https://hub.docker.com/r/hotio/qbitmanage</Registry>
   </Branch>
+  <Branch>
+    <Tag>nightly</Tag>
+    <TagDescription>develop branch</TagDescription>
+    <Repository>cr.hotio.dev/hotio/qbitmanage:nightly</Repository>
+    <Registry>https://hub.docker.com/r/hotio/qbitmanage</Registry>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
