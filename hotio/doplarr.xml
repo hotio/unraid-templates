@@ -26,12 +26,19 @@
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="DISCORD__TOKEN" Target="DISCORD__TOKEN" Default="" Mode="" Description="Container Variable: DISCORD__TOKEN" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="DISCORD__ROLE_ID" Target="DISCORD__ROLE_ID" Default="" Mode="" Description="Container Variable: DISCORD__ROLE_ID" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="DISCORD__MAX_RESULTS" Target="DISCORD__MAX_RESULTS" Default="25" Mode="" Description="Container Variable: DISCORD__MAX_RESULTS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="RADARR__URL" Target="RADARR__URL" Default="" Mode="" Description="Container Variable: RADARR__URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="RADARR__API" Target="RADARR__API" Default="" Mode="" Description="Container Variable: RADARR__API" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="RADARR__QUALITY_PROFILE" Target="RADARR__QUALITY_PROFILE" Default="" Mode="" Description="Container Variable: RADARR__QUALITY_PROFILE" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="SONARR__URL" Target="SONARR__URL" Default="" Mode="" Description="Container Variable: SONARR__URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="SONARR__API" Target="SONARR__API" Default="" Mode="" Description="Container Variable: SONARR__API" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="SONARR__QUALITY_PROFILE" Target="SONARR__QUALITY_PROFILE" Default="" Mode="" Description="Container Variable: SONARR__QUALITY_PROFILE" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="SONARR__LANGUAGE_PROFILE" Target="SONARR__LANGUAGE_PROFILE" Default="" Mode="" Description="Container Variable: SONARR__LANGUAGE_PROFILE" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="OVERSEERR__URL" Target="OVERSEERR__URL" Default="" Mode="" Description="Container Variable: OVERSEERR__URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="OVERSEERR__API" Target="OVERSEERR__API" Default="" Mode="" Description="Container Variable: OVERSEERR__API" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="OVERSEERR__DEFAULT_ID" Target="OVERSEERR__DEFAULT_ID" Default="" Mode="" Description="Container Variable: OVERSEERR__DEFAULT_ID" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PARTIAL_SEASONS" Target="PARTIAL_SEASONS" Default="true|false" Mode="" Description="Container Variable: PARTIAL_SEASONS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default=":info|:fatal|:debug" Mode="" Description="Container Variable: LOG_LEVEL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
