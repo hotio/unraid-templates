@@ -29,7 +29,6 @@
   <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="VPN_ADDITIONAL_PORTS" Target="VPN_ADDITIONAL_PORTS" Default="" Mode="" Description="Container Variable: VPN_ADDITIONAL_PORTS" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-  <Config Name="VPN_IP_CHECK_DELAY" Target="VPN_IP_CHECK_DELAY" Default="5" Mode="" Description="Container Variable: VPN_IP_CHECK_DELAY" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="FLOOD_AUTH" Target="FLOOD_AUTH" Default="false|true" Mode="" Description="Container Variable: FLOOD_AUTH" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
