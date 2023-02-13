@@ -9,6 +9,12 @@
     <Repository>cr.hotio.dev/hotio/whisparr:nightly</Repository>
     <Registry>https://hub.docker.com/r/hotio/whisparr</Registry>
   </Branch>
+  <Branch>
+    <Tag>v1</Tag>
+    <TagDescription>v1 branch</TagDescription>
+    <Repository>cr.hotio.dev/hotio/whisparr:v1</Repository>
+    <Registry>https://hub.docker.com/r/hotio/whisparr</Registry>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
