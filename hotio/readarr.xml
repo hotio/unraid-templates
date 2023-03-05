@@ -22,7 +22,7 @@
   <Category>Downloaders: MediaApp:Books</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/readarr.png</Icon>
-  <Overview>Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks). WARNING: Updates require a fresh database until further notice</Overview>
+  <Overview>Book, Magazine, Comics Ebook and Audiobook Manager and Automation (Sonarr for Ebooks).</Overview>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:8787]</WebUI>
