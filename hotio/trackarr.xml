@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>trackarr</Name>
-  <Repository>cr.hotio.dev/hotio/trackarr</Repository>
+  <Repository>ghcr.io/hotio/trackarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/trackarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/trackarr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/trackarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>Every commit to develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/trackarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/trackarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

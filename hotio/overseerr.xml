@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>overseerr</Name>
-  <Repository>cr.hotio.dev/hotio/overseerr</Repository>
+  <Repository>ghcr.io/hotio/overseerr</Repository>
   <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/overseerr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>Every commit to develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/overseerr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

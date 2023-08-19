@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>duplicacy</Name>
-  <Repository>cr.hotio.dev/hotio/duplicacy</Repository>
+  <Repository>ghcr.io/hotio/duplicacy</Repository>
   <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Stable channel</TagDescription>
-    <Repository>cr.hotio.dev/hotio/duplicacy:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
   </Branch>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>Latest channel</TagDescription>
-    <Repository>cr.hotio.dev/hotio/duplicacy:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

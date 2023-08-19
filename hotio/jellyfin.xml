@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>jellyfin</Name>
-  <Repository>cr.hotio.dev/hotio/jellyfin</Repository>
-  <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
+  <Repository>ghcr.io/hotio/jellyfin</Repository>
+  <Registry>https://github.com/hotio/jellyfin/pkgs/container/jellyfin</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Stable</TagDescription>
-    <Repository>cr.hotio.dev/hotio/jellyfin:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>Unstable</TagDescription>
-    <Repository>cr.hotio.dev/hotio/jellyfin:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/jellyfin</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

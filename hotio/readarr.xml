@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>readarr</Name>
-  <Repository>cr.hotio.dev/hotio/readarr:nightly</Repository>
+  <Repository>ghcr.io/hotio/readarr:nightly</Repository>
   <Registry>https://hub.docker.com/r/hotio/readarr</Registry>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/readarr:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/readarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>nightly branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/readarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/readarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

@@ -1,25 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>prowlarr</Name>
-  <Repository>cr.hotio.dev/hotio/prowlarr</Repository>
+  <Repository>ghcr.io/hotio/prowlarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/prowlarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>master branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/prowlarr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/prowlarr</Registry>
   </Branch>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/prowlarr:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/prowlarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>nightly branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/prowlarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/prowlarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

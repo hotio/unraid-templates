@@ -1,25 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>lidarr</Name>
-  <Repository>cr.hotio.dev/hotio/lidarr</Repository>
+  <Repository>ghcr.io/hotio/lidarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>master branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/lidarr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   </Branch>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/lidarr:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>nightly branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/lidarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>caddy</Name>
-  <Repository>cr.hotio.dev/hotio/caddy</Repository>
+  <Repository>ghcr.io/hotio/caddy</Repository>
   <Registry>https://hub.docker.com/r/hotio/caddy</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/caddy:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/caddy</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

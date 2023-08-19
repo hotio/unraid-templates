@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>bazarr</Name>
-  <Repository>cr.hotio.dev/hotio/bazarr</Repository>
+  <Repository>ghcr.io/hotio/bazarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/bazarr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>Pre-releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/bazarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/bazarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

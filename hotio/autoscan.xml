@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>autoscan</Name>
-  <Repository>cr.hotio.dev/hotio/autoscan</Repository>
+  <Repository>ghcr.io/hotio/autoscan</Repository>
   <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/autoscan:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>Every commit to master branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/autoscan:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

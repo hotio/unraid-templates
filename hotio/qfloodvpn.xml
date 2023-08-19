@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>qflood-vpn</Name>
-  <Repository>cr.hotio.dev/hotio/qflood</Repository>
+  <Repository>ghcr.io/hotio/qflood</Repository>
   <Registry>https://hub.docker.com/r/hotio/qflood</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/qflood:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/qflood</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

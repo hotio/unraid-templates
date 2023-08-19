@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>stash</Name>
-  <Repository>cr.hotio.dev/hotio/stash</Repository>
+  <Repository>ghcr.io/hotio/stash</Repository>
   <Registry>https://hub.docker.com/r/hotio/stash</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/stash:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/stash</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>latest_develop release</TagDescription>
-    <Repository>cr.hotio.dev/hotio/stash:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/stash</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

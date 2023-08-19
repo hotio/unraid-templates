@@ -1,25 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>radarr</Name>
-  <Repository>cr.hotio.dev/hotio/radarr</Repository>
+  <Repository>ghcr.io/hotio/radarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>master branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/radarr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   </Branch>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/radarr:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>nightly branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/radarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

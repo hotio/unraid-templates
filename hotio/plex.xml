@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>plex</Name>
-  <Repository>cr.hotio.dev/hotio/plex</Repository>
+  <Repository>ghcr.io/hotio/plex</Repository>
   <Registry>https://hub.docker.com/r/hotio/plex</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/plex:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/plex</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

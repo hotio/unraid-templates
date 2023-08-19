@@ -1,25 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unpackerr</Name>
-  <Repository>cr.hotio.dev/hotio/unpackerr</Repository>
+  <Repository>ghcr.io/hotio/unpackerr</Repository>
   <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/unpackerr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
   </Branch>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>Pre-releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/unpackerr:testing</Repository>
-    <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>Every commit to master branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/unpackerr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>sonarr</Name>
-  <Repository>cr.hotio.dev/hotio/sonarr</Repository>
+  <Repository>ghcr.io/hotio/sonarr</Repository>
   <Registry>https://hub.docker.com/r/hotio/sonarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>main branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/sonarr:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/sonarr</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/sonarr:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/sonarr</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>

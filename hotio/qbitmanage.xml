@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>qbitmanage</Name>
-  <Repository>cr.hotio.dev/hotio/qbitmanage</Repository>
+  <Repository>ghcr.io/hotio/qbitmanage</Repository>
   <Registry>https://hub.docker.com/r/hotio/qbitmanage</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
-    <Repository>cr.hotio.dev/hotio/qbitmanage:release</Repository>
-    <Registry>https://hub.docker.com/r/hotio/qbitmanage</Registry>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>develop branch</TagDescription>
-    <Repository>cr.hotio.dev/hotio/qbitmanage:nightly</Repository>
-    <Registry>https://hub.docker.com/r/hotio/qbitmanage</Registry>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
