@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>sonarr</Name>
   <Repository>ghcr.io/hotio/sonarr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/sonarr</Registry>
+  <Registry>https://github.com/hotio/sonarr/pkgs/container/sonarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>main branch</TagDescription>

@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>tautulli</Name>
   <Repository>ghcr.io/hotio/tautulli</Repository>
-  <Registry>https://hub.docker.com/r/hotio/tautulli</Registry>
+  <Registry>https://github.com/hotio/tautulli/pkgs/container/tautulli</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

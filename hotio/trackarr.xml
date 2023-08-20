@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>trackarr</Name>
   <Repository>ghcr.io/hotio/trackarr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/trackarr</Registry>
+  <Registry>https://github.com/hotio/trackarr/pkgs/container/trackarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

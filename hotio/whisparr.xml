@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>whisparr</Name>
   <Repository>ghcr.io/hotio/whisparr:nightly</Repository>
-  <Registry>https://hub.docker.com/r/hotio/whisparr</Registry>
+  <Registry>https://github.com/hotio/whisparr/pkgs/container/whisparr</Registry>
   <Branch>
     <Tag>nightly</Tag>
     <TagDescription>nightly branch</TagDescription>

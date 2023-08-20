@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>caddy</Name>
   <Repository>ghcr.io/hotio/caddy</Repository>
-  <Registry>https://hub.docker.com/r/hotio/caddy</Registry>
+  <Registry>https://github.com/hotio/caddy/pkgs/container/caddy</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

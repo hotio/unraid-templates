@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>plex</Name>
   <Repository>ghcr.io/hotio/plex</Repository>
-  <Registry>https://hub.docker.com/r/hotio/plex</Registry>
+  <Registry>https://github.com/hotio/plex/pkgs/container/plex</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

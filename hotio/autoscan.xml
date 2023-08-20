@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>autoscan</Name>
   <Repository>ghcr.io/hotio/autoscan</Repository>
-  <Registry>https://hub.docker.com/r/hotio/autoscan</Registry>
+  <Registry>https://github.com/hotio/autoscan/pkgs/container/autoscan</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

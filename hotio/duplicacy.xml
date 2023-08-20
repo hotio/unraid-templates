@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>duplicacy</Name>
   <Repository>ghcr.io/hotio/duplicacy</Repository>
-  <Registry>https://hub.docker.com/r/hotio/duplicacy</Registry>
+  <Registry>https://github.com/hotio/duplicacy/pkgs/container/duplicacy</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Stable channel</TagDescription>

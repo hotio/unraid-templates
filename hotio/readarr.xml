@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>readarr</Name>
   <Repository>ghcr.io/hotio/readarr:nightly</Repository>
-  <Registry>https://hub.docker.com/r/hotio/readarr</Registry>
+  <Registry>https://github.com/hotio/readarr/pkgs/container/readarr</Registry>
   <Branch>
     <Tag>testing</Tag>
     <TagDescription>develop branch</TagDescription>

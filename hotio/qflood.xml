@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>qflood</Name>
   <Repository>ghcr.io/hotio/qflood</Repository>
-  <Registry>https://hub.docker.com/r/hotio/qflood</Registry>
+  <Registry>https://github.com/hotio/qflood/pkgs/container/qflood</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

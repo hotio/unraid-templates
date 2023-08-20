@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>cloudflareddns</Name>
   <Repository>ghcr.io/hotio/cloudflareddns</Repository>
-  <Registry>https://hub.docker.com/r/hotio/cloudflareddns</Registry>
+  <Registry>https://github.com/hotio/cloudflareddns/pkgs/container/cloudflareddns</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>The main branch</TagDescription>

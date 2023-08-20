@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>qbittorrent</Name>
   <Repository>ghcr.io/hotio/qbittorrent</Repository>
-  <Registry>https://hub.docker.com/r/hotio/qbittorrent</Registry>
+  <Registry>https://github.com/hotio/qbittorrent/pkgs/container/qbittorrent</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Stable</TagDescription>

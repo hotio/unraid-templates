@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>qbitmanage</Name>
   <Repository>ghcr.io/hotio/qbitmanage</Repository>
-  <Registry>https://hub.docker.com/r/hotio/qbitmanage</Registry>
+  <Registry>https://github.com/hotio/qbitmanage/pkgs/container/qbitmanage</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

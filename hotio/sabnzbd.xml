@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>sabnzbd</Name>
   <Repository>ghcr.io/hotio/sabnzbd</Repository>
-  <Registry>https://hub.docker.com/r/hotio/sabnzbd</Registry>
+  <Registry>https://github.com/hotio/sabnzbd/pkgs/container/sabnzbd</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

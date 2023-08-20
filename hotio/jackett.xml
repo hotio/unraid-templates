@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>jackett</Name>
   <Repository>ghcr.io/hotio/jackett</Repository>
-  <Registry>https://hub.docker.com/r/hotio/jackett</Registry>
+  <Registry>https://github.com/hotio/jackett/pkgs/container/jackett</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>nzbget</Name>
   <Repository>ghcr.io/hotio/nzbget</Repository>
-  <Registry>https://hub.docker.com/r/hotio/nzbget</Registry>
+  <Registry>https://github.com/hotio/nzbget/pkgs/container/nzbget</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

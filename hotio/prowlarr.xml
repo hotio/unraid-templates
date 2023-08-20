@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>prowlarr</Name>
   <Repository>ghcr.io/hotio/prowlarr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/prowlarr</Registry>
+  <Registry>https://github.com/hotio/prowlarr/pkgs/container/prowlarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>master branch</TagDescription>

@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>rflood</Name>
   <Repository>ghcr.io/hotio/rflood</Repository>
-  <Registry>https://hub.docker.com/r/hotio/rflood</Registry>
+  <Registry>https://github.com/hotio/rflood/pkgs/container/rflood</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

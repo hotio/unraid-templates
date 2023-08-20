@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>overseerr</Name>
   <Repository>ghcr.io/hotio/overseerr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/overseerr</Registry>
+  <Registry>https://github.com/hotio/overseerr/pkgs/container/overseerr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

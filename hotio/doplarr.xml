@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>doplarr</Name>
   <Repository>ghcr.io/hotio/doplarr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/doplarr</Registry>
+  <Registry>https://github.com/hotio/doplarr/pkgs/container/doplarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>

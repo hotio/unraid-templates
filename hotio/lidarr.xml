@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>lidarr</Name>
   <Repository>ghcr.io/hotio/lidarr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/lidarr</Registry>
+  <Registry>https://github.com/hotio/lidarr/pkgs/container/lidarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>master branch</TagDescription>

@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>radarr</Name>
   <Repository>ghcr.io/hotio/radarr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/radarr</Registry>
+  <Registry>https://github.com/hotio/radarr/pkgs/container/radarr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>master branch</TagDescription>

@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>unpackerr</Name>
   <Repository>ghcr.io/hotio/unpackerr</Repository>
-  <Registry>https://hub.docker.com/r/hotio/unpackerr</Registry>
+  <Registry>https://github.com/hotio/unpackerr/pkgs/container/unpackerr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>Releases</TagDescription>
