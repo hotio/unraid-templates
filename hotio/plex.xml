@@ -14,7 +14,7 @@
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/plex.png</Icon>
-  <Overview>Plex Media Server docker image with support for Plex Claim, Plex Pass and fast updates.</Overview>
+  <Overview>Plex Media Server docker image with support for Plex Claim token, Plex Beta installation and fast updates.</Overview>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:32400]/web</WebUI>
@@ -24,10 +24,10 @@
   <Config Name="Host Port for 32400" Target="32400" Default="32400" Mode="tcp" Description="Container Port: 32400" Type="Port" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Host Path for /transcode" Target="/transcode" Default="" Mode="rw" Description="Container Path: /transcode" Type="Path" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="PLEX_CLAIM" Target="PLEX_CLAIM" Default="" Mode="" Description="Container Variable: PLEX_CLAIM&amp;lt;br&amp;gt;Example: claim-xxxxxxxxxxxxxxxxxxxx&amp;lt;br&amp;gt;Visit plex.tv/claim in your browser to get your claim code." Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="ADVERTISE_IP" Target="ADVERTISE_IP" Default="" Mode="" Description="Container Variable: ADVERTISE_IP" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="ALLOWED_NETWORKS" Target="ALLOWED_NETWORKS" Default="" Mode="" Description="Container Variable: ALLOWED_NETWORKS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="PLEX_PASS" Target="PLEX_PASS" Default="no|yes" Mode="" Description="Container Variable: PLEX_PASS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_CLAIM_TOKEN" Target="PLEX_CLAIM_TOKEN" Default="" Mode="" Description="Container Variable: PLEX_CLAIM_TOKEN&amp;lt;br&amp;gt;Example: claim-xxxxxxxxxxxxxxxxxxxx&amp;lt;br&amp;gt;Visit plex.tv/claim in your browser to get your claim code." Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_ADVERTISE_URL" Target="PLEX_ADVERTISE_URL" Default="" Mode="" Description="Container Variable: PLEX_ADVERTISE_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_NO_AUTH_NETWORKS" Target="PLEX_NO_AUTH_NETWORKS" Default="" Mode="" Description="Container Variable: PLEX_NO_AUTH_NETWORKS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_BETA_INSTALL" Target="PLEX_BETA_INSTALL" Default="no|yes" Mode="" Description="Container Variable: PLEX_BETA_INSTALL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
