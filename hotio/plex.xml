@@ -27,7 +27,7 @@
   <Config Name="PLEX_CLAIM_TOKEN" Target="PLEX_CLAIM_TOKEN" Default="" Mode="" Description="Container Variable: PLEX_CLAIM_TOKEN&amp;lt;br&amp;gt;Example: claim-xxxxxxxxxxxxxxxxxxxx&amp;lt;br&amp;gt;Visit plex.tv/claim in your browser to get your claim code." Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PLEX_ADVERTISE_URL" Target="PLEX_ADVERTISE_URL" Default="" Mode="" Description="Container Variable: PLEX_ADVERTISE_URL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PLEX_NO_AUTH_NETWORKS" Target="PLEX_NO_AUTH_NETWORKS" Default="" Mode="" Description="Container Variable: PLEX_NO_AUTH_NETWORKS" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
-  <Config Name="PLEX_BETA_INSTALL" Target="PLEX_BETA_INSTALL" Default="no|yes" Mode="" Description="Container Variable: PLEX_BETA_INSTALL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="PLEX_BETA_INSTALL" Target="PLEX_BETA_INSTALL" Default="false|true" Mode="" Description="Container Variable: PLEX_BETA_INSTALL" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
