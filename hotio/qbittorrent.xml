@@ -14,7 +14,7 @@
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/qbittorrent.png</Icon>
-  <Overview>Docker image with qBittorrent and bundled with the alternative VueTorrent Web UI.</Overview>
+  <Overview>Docker image with qBittorrent and bundled with the alternative VueTorrent and Nightwalker Web UI.</Overview>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
