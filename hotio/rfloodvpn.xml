@@ -18,7 +18,7 @@
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
+  <ExtraParams>--dns=1.1.1.1 --cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 3000" Target="3000" Default="3000" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always-hide" Required="true" Mask="false"/>
