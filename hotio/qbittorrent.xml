@@ -38,6 +38,7 @@
   <Config Name="Host Port for 8080" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="WEBUI_PORTS" Target="WEBUI_PORTS" Default="8080/tcp,8080/udp" Mode="" Description="Container Variable: WEBUI_PORTS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="true|false" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="always" Required="false" Mask="false"/>

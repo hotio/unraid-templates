@@ -29,6 +29,7 @@
   <Config Name="Host Port for 3000" Target="3000" Default="3000" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="WEBUI_PORTS" Target="WEBUI_PORTS" Default="3000/tcp,3000/udp" Mode="" Description="Container Variable: WEBUI_PORTS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="FLOOD_AUTH" Target="FLOOD_AUTH" Default="false|true" Mode="" Description="Container Variable: FLOOD_AUTH" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="true|false" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="always" Required="false" Mask="false"/>
