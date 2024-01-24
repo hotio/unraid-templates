@@ -34,6 +34,7 @@
   <Config Name="PLEX_ADVERTISE_URL" Target="PLEX_ADVERTISE_URL" Default="" Mode="" Description="Container Variable: PLEX_ADVERTISE_URL" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PLEX_NO_AUTH_NETWORKS" Target="PLEX_NO_AUTH_NETWORKS" Default="" Mode="" Description="Container Variable: PLEX_NO_AUTH_NETWORKS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PLEX_BETA_INSTALL" Target="PLEX_BETA_INSTALL" Default="false|true" Mode="" Description="Container Variable: PLEX_BETA_INSTALL" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PLEX_PURGE_CODECS" Target="PLEX_PURGE_CODECS" Default="false|true" Mode="" Description="Container Variable: PLEX_PURGE_CODECS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="true|false" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="always" Required="false" Mask="false"/>
