@@ -33,11 +33,16 @@
   <Config Name="FLOOD_AUTH" Target="FLOOD_AUTH" Default="false|true" Mode="" Description="Container Variable: FLOOD_AUTH" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="ARGS" Target="ARGS" Default="" Mode="" Description="Container Variable: ARGS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="FLOOD_ARGS" Target="FLOOD_ARGS" Default="" Mode="" Description="Container Variable: FLOOD_ARGS" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="true|false" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton|pia" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_ADDITIONAL_PORTS" Target="VPN_ADDITIONAL_PORTS" Default="" Mode="" Description="Container Variable: VPN_ADDITIONAL_PORTS" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true|false" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_PASS" Target="VPN_PIA_PASS" Default="" Mode="" Description="Container Variable: VPN_PIA_PASS" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_PREFERRED_REGION" Target="VPN_PIA_PREFERRED_REGION" Default="" Mode="" Description="Container Variable: VPN_PIA_PREFERRED_REGION" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
