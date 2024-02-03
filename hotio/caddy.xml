@@ -9,7 +9,7 @@
   </Branch>
   <Branch>
     <Tag>release</Tag>
-    <ExtraParams>--dns=1.1.1.1 --cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
+    <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
     <TagDescription>VPN</TagDescription>
   </Branch>
   <Shell>bash</Shell>
@@ -36,6 +36,7 @@
   <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_ADDITIONAL_PORTS" Target="VPN_ADDITIONAL_PORTS" Default="" Mode="" Description="Container Variable: VPN_ADDITIONAL_PORTS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true|false" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="VPN_KEEP_LOCAL_DNS" Target="VPN_KEEP_LOCAL_DNS" Default="false|true" Mode="" Description="Container Variable: VPN_KEEP_LOCAL_DNS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PASS" Target="VPN_PIA_PASS" Default="" Mode="" Description="Container Variable: VPN_PIA_PASS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PREFERRED_REGION" Target="VPN_PIA_PREFERRED_REGION" Default="" Mode="" Description="Container Variable: VPN_PIA_PREFERRED_REGION" Type="Variable" Display="always" Required="false" Mask="false"/>
