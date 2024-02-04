@@ -1,34 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unpackerr</Name>
-  <Repository>ghcr.io/hotio/unpackerr</Repository>
+  <Repository>ghcr.io/hotio/unpackerr:latest</Repository>
   <Registry>https://github.com/hotio/unpackerr/pkgs/container/unpackerr</Registry>
   <Branch>
     <Tag>release</Tag>
-    <TagDescription>No VPN</TagDescription>
+    <TagDescription>release</TagDescription>
   </Branch>
   <Branch>
     <Tag>testing</Tag>
-    <TagDescription>No VPN</TagDescription>
+    <TagDescription>testing</TagDescription>
   </Branch>
   <Branch>
     <Tag>nightly</Tag>
-    <TagDescription>No VPN</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>release</Tag>
-    <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
-    <TagDescription>VPN</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>testing</Tag>
-    <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
-    <TagDescription>VPN</TagDescription>
-  </Branch>
-  <Branch>
-    <Tag>nightly</Tag>
-    <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
-    <TagDescription>VPN</TagDescription>
+    <TagDescription>nightly</TagDescription>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
@@ -38,6 +23,10 @@
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/unpackerr.png</Icon>
   <Overview>WireGuard VPN built-in!</Overview>
+  <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
+--cap-add=NET_ADMIN&#xD;
+--sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;
+--sysctl="net.ipv6.conf.all.disable_ipv6=1"</Requires>
   <Description/>
   <MyIP/>
   <WebUI/>
