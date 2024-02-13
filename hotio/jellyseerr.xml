@@ -14,7 +14,7 @@
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/jellyseerr.png</Icon>
-  <Overview>WireGuard VPN built-in!</Overview>
+  <Overview>WireGuard VPN built-in! Like Overseerr, but for Jellyfin.</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;

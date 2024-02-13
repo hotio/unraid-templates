@@ -14,7 +14,7 @@
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/flood.png</Icon>
-  <Overview>WireGuard VPN built-in!</Overview>
+  <Overview>WireGuard VPN built-in! This docker image contains rTorrent and the FloodUI.</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;

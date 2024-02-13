@@ -18,7 +18,7 @@
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/pullio.png</Icon>
-  <Overview>WireGuard VPN built-in!</Overview>
+  <Overview>WireGuard VPN built-in! This needs no description, you'll know if you need this.</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;

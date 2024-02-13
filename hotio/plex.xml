@@ -14,7 +14,7 @@
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/plex.png</Icon>
-  <Overview>WireGuard VPN built-in!</Overview>
+  <Overview>WireGuard VPN built-in! It's Plex, do I really need to explain what it is?</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;

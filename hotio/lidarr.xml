@@ -22,7 +22,7 @@
   <Category>Downloaders: MediaApp:Music</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/lidarr.png</Icon>
-  <Overview>WireGuard VPN built-in!</Overview>
+  <Overview>WireGuard VPN built-in! For audiophiles only!</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;
