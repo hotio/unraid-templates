@@ -18,7 +18,7 @@
   <Category>Backup:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/duplicacy.png</Icon>
-  <Overview>WireGuard VPN built-in! For you backup needs, backs up everything.</Overview>
+  <Overview>WireGuard VPN built-in! For your backup needs, backs up everything.</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;
