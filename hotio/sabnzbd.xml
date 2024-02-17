@@ -22,7 +22,7 @@
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/sabnzbd.png</Icon>
-  <Overview>WireGuard VPN built-in! This thing is da shit when it comes to downloading. Download all the usenet!</Overview>
+  <Overview>WireGuard VPN built-in! This thing is great when it comes to downloading. Download all the usenet!</Overview>
   <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
 --cap-add=NET_ADMIN&#xD;
 --sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;
