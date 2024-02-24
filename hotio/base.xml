@@ -10,15 +10,12 @@
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/pullio.png</Icon>
-  <Overview>WireGuard VPN built-in! This base image can be used as a standalone VPN image for other containers to attach to.</Overview>
-  <Requires>Extra Parameters (when VPN_ENABLED=true):&#xD;
---cap-add=NET_ADMIN&#xD;
---sysctl="net.ipv4.conf.all.src_valid_mark=1"&#xD;
---sysctl="net.ipv6.conf.all.disable_ipv6=1"</Requires>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! This base image can be used as a standalone VPN image for other containers to attach to.</Overview>
+  <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
   <Description/>
   <MyIP/>
   <WebUI/>
-  <ExtraParams/>
+  <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
@@ -36,6 +33,7 @@
   <Config Name="VPN_PIA_DIP_TOKEN" Target="VPN_PIA_DIP_TOKEN" Default="no" Mode="" Description="Container Variable: VPN_PIA_DIP_TOKEN" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PORT_FORWARD_PERSIST" Target="VPN_PIA_PORT_FORWARD_PERSIST" Default="false|true" Mode="" Description="Container Variable: VPN_PIA_PORT_FORWARD_PERSIST" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="UNBOUND_ENABLED" Target="UNBOUND_ENABLED" Default="false|true" Mode="" Description="Container Variable: UNBOUND_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
