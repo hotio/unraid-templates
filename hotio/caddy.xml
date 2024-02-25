@@ -14,7 +14,7 @@
   <Category>Network:Web</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/caddy.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click [Show more settings] for all Variables! Easy reverse proxy!</Overview>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click "Show more settings" for all Variables! Easy reverse proxy!</Overview>
   <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
   <Description/>
   <MyIP/>

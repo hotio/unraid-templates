@@ -22,7 +22,7 @@
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/sabnzbd.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click [Show more settings] for all Variables! This thing is great when it comes to downloading. Download all the usenet!</Overview>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click "Show more settings" for all Variables! This thing is great when it comes to downloading. Download all the usenet!</Overview>
   <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
   <Description/>
   <MyIP/>
