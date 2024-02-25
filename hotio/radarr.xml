@@ -27,28 +27,28 @@
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:7878]</WebUI>
-  <ExtraParams>--cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
+  <ExtraParams>--hostname=radarr.internal --cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 7878" Target="7878" Default="7878" Mode="tcp" Description="Container Port: 7878" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton|pia" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_EXPOSE_PORTS_ON_LAN" Target="VPN_EXPOSE_PORTS_ON_LAN" Default="" Mode="" Description="Container Variable: VPN_EXPOSE_PORTS_ON_LAN" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_AUTO_PORT_FORWARD_TO_PORTS" Target="VPN_AUTO_PORT_FORWARD_TO_PORTS" Default="" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD_TO_PORTS" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_KEEP_LOCAL_DNS" Target="VPN_KEEP_LOCAL_DNS" Default="false|true" Mode="" Description="Container Variable: VPN_KEEP_LOCAL_DNS" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PIA_PASS" Target="VPN_PIA_PASS" Default="" Mode="" Description="Container Variable: VPN_PIA_PASS" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PIA_PREFERRED_REGION" Target="VPN_PIA_PREFERRED_REGION" Default="" Mode="" Description="Container Variable: VPN_PIA_PREFERRED_REGION" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PIA_DIP_TOKEN" Target="VPN_PIA_DIP_TOKEN" Default="no" Mode="" Description="Container Variable: VPN_PIA_DIP_TOKEN" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="VPN_PIA_PORT_FORWARD_PERSIST" Target="VPN_PIA_PORT_FORWARD_PERSIST" Default="false|true" Mode="" Description="Container Variable: VPN_PIA_PORT_FORWARD_PERSIST" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UNBOUND_ENABLED" Target="UNBOUND_ENABLED" Default="false|true" Mode="" Description="Container Variable: UNBOUND_ENABLED" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="UNBOUND_ENABLED" Target="UNBOUND_ENABLED" Default="false|true" Mode="" Description="Container Variable: UNBOUND_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton|pia" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_EXPOSE_PORTS_ON_LAN" Target="VPN_EXPOSE_PORTS_ON_LAN" Default="" Mode="" Description="Container Variable: VPN_EXPOSE_PORTS_ON_LAN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_AUTO_PORT_FORWARD_TO_PORTS" Target="VPN_AUTO_PORT_FORWARD_TO_PORTS" Default="" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD_TO_PORTS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_KEEP_LOCAL_DNS" Target="VPN_KEEP_LOCAL_DNS" Default="false|true" Mode="" Description="Container Variable: VPN_KEEP_LOCAL_DNS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_PASS" Target="VPN_PIA_PASS" Default="" Mode="" Description="Container Variable: VPN_PIA_PASS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_PREFERRED_REGION" Target="VPN_PIA_PREFERRED_REGION" Default="" Mode="" Description="Container Variable: VPN_PIA_PREFERRED_REGION" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_DIP_TOKEN" Target="VPN_PIA_DIP_TOKEN" Default="no" Mode="" Description="Container Variable: VPN_PIA_DIP_TOKEN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_PORT_FORWARD_PERSIST" Target="VPN_PIA_PORT_FORWARD_PERSIST" Default="false|true" Mode="" Description="Container Variable: VPN_PIA_PORT_FORWARD_PERSIST" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
