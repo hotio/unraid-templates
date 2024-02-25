@@ -17,6 +17,7 @@
   <Project>https://hotio.dev/containers/tautulli</Project>
   <ReadMe>https://hotio.dev/containers/tautulli</ReadMe>
   <Category>Downloaders: MediaApp:Video</Category>
+  <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/tautulli.png</Icon>
   <Overview>WireGuard VPN, Privoxy and Unbound built-in! Keep an eye on your Plex users.</Overview>

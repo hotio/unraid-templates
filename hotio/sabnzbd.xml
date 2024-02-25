@@ -21,6 +21,7 @@
   <Project>https://hotio.dev/containers/sabnzbd</Project>
   <ReadMe>https://hotio.dev/containers/sabnzbd</ReadMe>
   <Category>Downloaders:</Category>
+  <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/sabnzbd.png</Icon>
   <Overview>WireGuard VPN, Privoxy and Unbound built-in! This thing is great when it comes to downloading. Download all the usenet!</Overview>

@@ -17,6 +17,7 @@
   <Project>https://hotio.dev/containers/readarr</Project>
   <ReadMe>https://hotio.dev/containers/readarr</ReadMe>
   <Category>Downloaders: MediaApp:Books</Category>
+  <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/readarr.png</Icon>
   <Overview>WireGuard VPN, Privoxy and Unbound built-in! This is for book nerds.</Overview>

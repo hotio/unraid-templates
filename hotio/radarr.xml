@@ -21,6 +21,7 @@
   <Project>https://hotio.dev/containers/radarr</Project>
   <ReadMe>https://hotio.dev/containers/radarr</ReadMe>
   <Category>Downloaders: MediaApp:Video</Category>
+  <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/radarr.png</Icon>
   <Overview>WireGuard VPN, Privoxy and Unbound built-in! Like Sonarr, but for movies.</Overview>

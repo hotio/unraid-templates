@@ -17,6 +17,7 @@
   <Project>https://hotio.dev/containers/sonarr</Project>
   <ReadMe>https://hotio.dev/containers/sonarr</ReadMe>
   <Category>Downloaders: MediaApp:Video</Category>
+  <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/sonarr.png</Icon>
   <Overview>WireGuard VPN, Privoxy and Unbound built-in! If you like TV Shows, but are on a tight budget. Look no further!</Overview>

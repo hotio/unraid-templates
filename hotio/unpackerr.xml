@@ -21,6 +21,7 @@
   <Project>https://hotio.dev/containers/unpackerr</Project>
   <ReadMe>https://hotio.dev/containers/unpackerr</ReadMe>
   <Category>Downloaders: Other:</Category>
+  <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/unpackerr.png</Icon>
   <Overview>WireGuard VPN, Privoxy and Unbound built-in! Infected with rar'ed torrents? Here's your cure!</Overview>
