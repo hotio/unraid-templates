@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/bazarr</Project>
+  <ReadMe>https://hotio.dev/containers/bazarr</ReadMe>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/bazarr.png</Icon>

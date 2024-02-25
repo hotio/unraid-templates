@@ -19,6 +19,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/prowlarr</Project>
+  <ReadMe>https://hotio.dev/containers/prowlarr</ReadMe>
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/prowlarr.png</Icon>

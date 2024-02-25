@@ -7,6 +7,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/base</Project>
+  <ReadMe>https://hotio.dev/containers/base</ReadMe>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/pullio.png</Icon>

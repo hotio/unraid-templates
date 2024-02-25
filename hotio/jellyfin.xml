@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/jellyfin</Project>
+  <ReadMe>https://hotio.dev/containers/jellyfin</ReadMe>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/jellyfin.png</Icon>

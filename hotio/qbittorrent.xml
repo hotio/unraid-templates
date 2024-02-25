@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/qbittorrent</Project>
+  <ReadMe>https://hotio.dev/containers/qbittorrent</ReadMe>
   <Category>Downloaders:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/qbittorrent.png</Icon>

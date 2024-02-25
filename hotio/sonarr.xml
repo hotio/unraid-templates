@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/sonarr</Project>
+  <ReadMe>https://hotio.dev/containers/sonarr</ReadMe>
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/sonarr.png</Icon>

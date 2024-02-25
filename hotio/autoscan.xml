@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/autoscan</Project>
+  <ReadMe>https://hotio.dev/containers/autoscan</ReadMe>
   <Category>Other:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/pullio.png</Icon>

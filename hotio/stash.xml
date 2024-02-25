@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/stash</Project>
+  <ReadMe>https://hotio.dev/containers/stash</ReadMe>
   <Category>MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/stash.png</Icon>

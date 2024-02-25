@@ -11,6 +11,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/caddy</Project>
+  <ReadMe>https://hotio.dev/containers/caddy</ReadMe>
   <Category>Network:Web</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/caddy.png</Icon>

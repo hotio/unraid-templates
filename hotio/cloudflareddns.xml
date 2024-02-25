@@ -11,6 +11,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/cloudflareddns</Project>
+  <ReadMe>https://hotio.dev/containers/cloudflareddns</ReadMe>
   <Category>Network:DNS</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/cloudflareddns.png</Icon>

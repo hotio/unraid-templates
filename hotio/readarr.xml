@@ -15,6 +15,7 @@
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
   <Project>https://hotio.dev/containers/readarr</Project>
+  <ReadMe>https://hotio.dev/containers/readarr</ReadMe>
   <Category>Downloaders: MediaApp:Books</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/readarr.png</Icon>
