@@ -18,7 +18,7 @@
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/jackett.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Add torrent trackers, something about an API...Like Prowlarr, but less cool logo.</Overview>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click [Show more settings] for all Variables! Add torrent trackers, something about an API...Like Prowlarr, but less cool logo.</Overview>
   <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
   <Description/>
   <MyIP/>

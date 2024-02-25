@@ -14,7 +14,7 @@
   <Category>Network:DNS</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/cloudflareddns.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Update your Cloudflare A/AAAA records with your dynamic IP, turning Cloudflare into a Dynamic DNS service.</Overview>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click [Show more settings] for all Variables! Update your Cloudflare A/AAAA records with your dynamic IP, turning Cloudflare into a Dynamic DNS service.</Overview>
   <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
   <Description/>
   <MyIP/>

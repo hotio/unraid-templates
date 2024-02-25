@@ -18,7 +18,7 @@
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/jellyfin.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Basically like Plex, but more buggy.</Overview>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click [Show more settings] for all Variables! Basically like Plex, but more buggy.</Overview>
   <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
   <Description/>
   <MyIP/>
