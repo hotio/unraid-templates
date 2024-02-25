@@ -18,8 +18,8 @@
   <Category>Downloaders: MediaApp:Other</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/overseerr.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click "Show more settings" for all Variables! Makes Sonarr and Radarr go into overdrive, without you doing a thing.</Overview>
-  <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Makes Sonarr and Radarr go into overdrive, without you doing a thing.</Overview>
+  <Requires>Don't forget to click **Show more settings...** for all **Variables**! If you do not use the VPN feature, you can remove all VPN related **Variables** and **Extra Parameters** (turn on **ADVANCED VIEW**).</Requires>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:5055]</WebUI>

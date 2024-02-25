@@ -18,8 +18,8 @@
   <Category>Downloaders: MediaApp:Video</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/tautulli.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click "Show more settings" for all Variables! Keep an eye on your Plex users.</Overview>
-  <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Keep an eye on your Plex users.</Overview>
+  <Requires>Don't forget to click **Show more settings...** for all **Variables**! If you do not use the VPN feature, you can remove all VPN related **Variables** and **Extra Parameters** (turn on **ADVANCED VIEW**).</Requires>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:8181]</WebUI>

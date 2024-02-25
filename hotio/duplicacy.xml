@@ -18,8 +18,8 @@
   <Category>Backup:</Category>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/duplicacy.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Don't forget to click "Show more settings" for all Variables! For your backup needs, backs up everything.</Overview>
-  <Requires>If you do not use the VPN feature, you can remove all VPN related Variables and Extra Parameters (toggle ADVANCED VIEW).</Requires>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! For your backup needs, backs up everything.</Overview>
+  <Requires>Don't forget to click **Show more settings...** for all **Variables**! If you do not use the VPN feature, you can remove all VPN related **Variables** and **Extra Parameters** (turn on **ADVANCED VIEW**).</Requires>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:3875]</WebUI>
