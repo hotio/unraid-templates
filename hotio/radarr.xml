@@ -45,7 +45,7 @@
   <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_AUTO_PORT_FORWARD_TO_PORTS" Target="VPN_AUTO_PORT_FORWARD_TO_PORTS" Default="" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD_TO_PORTS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_KEEP_LOCAL_DNS" Target="VPN_KEEP_LOCAL_DNS" Default="false|true" Mode="" Description="Container Variable: VPN_KEEP_LOCAL_DNS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="VPN_FIREWALL_TYPE" Target="VPN_FIREWALL_TYPE" Default="auto|nftables|nft|legacy" Mode="" Description="Container Variable: VPN_FIREWALL_TYPE" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_FIREWALL_TYPE" Target="VPN_FIREWALL_TYPE" Default="auto|legacy" Mode="" Description="Container Variable: VPN_FIREWALL_TYPE" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PASS" Target="VPN_PIA_PASS" Default="" Mode="" Description="Container Variable: VPN_PIA_PASS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PREFERRED_REGION" Target="VPN_PIA_PREFERRED_REGION" Default="" Mode="" Description="Container Variable: VPN_PIA_PREFERRED_REGION" Type="Variable" Display="advanced" Required="false" Mask="false"/>
