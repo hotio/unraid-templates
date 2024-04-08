@@ -30,6 +30,7 @@
   <Network>bridge</Network>
   <Config Name="Host Port for 3030" Target="3030" Default="3030" Mode="tcp" Description="Container Port: 3030" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="UNBOUND_ENABLED" Target="UNBOUND_ENABLED" Default="false|true" Mode="" Description="Container Variable: UNBOUND_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
