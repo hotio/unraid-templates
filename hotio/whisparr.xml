@@ -7,6 +7,10 @@
     <Tag>nightly</Tag>
     <TagDescription>nightly</TagDescription>
   </Branch>
+  <Branch>
+    <Tag>v3</Tag>
+    <TagDescription>v3</TagDescription>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
