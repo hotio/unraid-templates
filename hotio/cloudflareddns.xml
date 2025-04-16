@@ -37,7 +37,6 @@
   <Config Name="CF_ZONES" Target="CF_ZONES" Default="" Mode="" Description="Container Variable: CF_ZONES&amp;lt;br&amp;gt;Example: example.com;foobar.com;foobar.com" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="CF_RECORDTYPES" Target="CF_RECORDTYPES" Default="" Mode="" Description="Container Variable: CF_RECORDTYPES&amp;lt;br&amp;gt;Example: A;A;AAAA" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="UNBOUND_ENABLED" Target="UNBOUND_ENABLED" Default="false|true" Mode="" Description="Container Variable: UNBOUND_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_ENABLED" Target="VPN_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton|pia" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
