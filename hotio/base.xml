@@ -26,6 +26,7 @@
   <Config Name="VPN_CONF" Target="VPN_CONF" Default="wg0" Mode="" Description="Container Variable: VPN_CONF" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PROVIDER" Target="VPN_PROVIDER" Default="generic|proton|pia" Mode="" Description="Container Variable: VPN_PROVIDER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_LAN_LEAK_ENABLED" Target="VPN_LAN_LEAK_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_LAN_LEAK_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_EXPOSE_PORTS_ON_LAN" Target="VPN_EXPOSE_PORTS_ON_LAN" Default="" Mode="" Description="Container Variable: VPN_EXPOSE_PORTS_ON_LAN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_AUTO_PORT_FORWARD_TO_PORTS" Target="VPN_AUTO_PORT_FORWARD_TO_PORTS" Default="" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD_TO_PORTS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
