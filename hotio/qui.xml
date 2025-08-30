@@ -16,7 +16,7 @@
   <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
   <Icon>https://hotio.dev/webhook-avatars/qui.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Discord request bot for your media consumption needs.</Overview>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! A gorgeous UI to handle multiple qBittorrent instances.</Overview>
   <Requires>Don't forget to click **Show more settings...** for all **Variables**! If you do not use the VPN feature, you can remove all VPN related **Variables** and **Extra Parameters** (turn on **ADVANCED VIEW**).</Requires>
   <Description/>
   <MyIP/>
