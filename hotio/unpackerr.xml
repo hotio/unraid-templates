@@ -29,7 +29,7 @@
   <Description/>
   <MyIP/>
   <WebUI/>
-  <ExtraParams>--hostname=unpackerr.internal --cap-add=NET_ADMIN --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv6.conf.all.disable_ipv6=1"</ExtraParams>
+  <ExtraParams>--hostname=unpackerr.internal --cap-add=NET_ADMIN</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
@@ -45,7 +45,6 @@
   <Config Name="VPN_EXPOSE_PORTS_ON_LAN" Target="VPN_EXPOSE_PORTS_ON_LAN" Default="" Mode="" Description="Container Variable: VPN_EXPOSE_PORTS_ON_LAN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_AUTO_PORT_FORWARD_TO_PORTS" Target="VPN_AUTO_PORT_FORWARD_TO_PORTS" Default="" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD_TO_PORTS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="VPN_FIREWALL_TYPE" Target="VPN_FIREWALL_TYPE" Default="auto|legacy|nftables" Mode="" Description="Container Variable: VPN_FIREWALL_TYPE" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_HEALTHCHECK_ENABLED" Target="VPN_HEALTHCHECK_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_HEALTHCHECK_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_NAMESERVERS" Target="VPN_NAMESERVERS" Default="" Mode="" Description="Container Variable: VPN_NAMESERVERS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
