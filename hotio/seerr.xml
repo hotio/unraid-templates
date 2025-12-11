@@ -1,27 +1,31 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>jellyseerr</Name>
-  <Repository>ghcr.io/hotio/jellyseerr:latest</Repository>
-  <Registry>https://github.com/hotio/jellyseerr/pkgs/container/jellyseerr</Registry>
+  <Name>seerr</Name>
+  <Repository>ghcr.io/hotio/seerr:latest</Repository>
+  <Registry>https://github.com/hotio/seerr/pkgs/container/seerr</Registry>
   <Branch>
     <Tag>release</Tag>
     <TagDescription>release</TagDescription>
   </Branch>
+  <Branch>
+    <Tag>nightly</Tag>
+    <TagDescription>nightly</TagDescription>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
-  <Project>https://hotio.dev/containers/jellyseerr</Project>
-  <ReadMe>https://hotio.dev/containers/jellyseerr</ReadMe>
+  <Project>https://hotio.dev/containers/seerr</Project>
+  <ReadMe>https://hotio.dev/containers/seerr</ReadMe>
   <Category>Downloaders: MediaApp:Other</Category>
   <ExtraSearchTerms>wireguard vpn arr privoxy unbound pia proton torguard pullio game</ExtraSearchTerms>
   <TemplateURL>false</TemplateURL>
-  <Icon>https://hotio.dev/webhook-avatars/jellyseerr.png</Icon>
-  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Like Overseerr, but for Jellyfin.</Overview>
+  <Icon>https://hotio.dev/webhook-avatars/seerr.png</Icon>
+  <Overview>WireGuard VPN, Privoxy and Unbound built-in! Open-source media request and discovery manager for Jellyfin, Plex, and Emby.</Overview>
   <Requires>Don't forget to click **Show more settings...** for all **Variables**! If you do not use the VPN feature, you can remove all VPN related **Variables** and **Extra Parameters** (turn on **ADVANCED VIEW**).</Requires>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:5055]</WebUI>
-  <ExtraParams>--hostname=jellyseerr.internal --cap-add=NET_ADMIN</ExtraParams>
+  <ExtraParams>--hostname=seerr.internal --cap-add=NET_ADMIN</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 5055" Target="5055" Default="5055" Mode="tcp" Description="Container Port: 5055" Type="Port" Display="always" Required="true" Mask="false"/>
