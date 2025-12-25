@@ -43,7 +43,7 @@
   <Config Name="VPN_LAN_NETWORK" Target="VPN_LAN_NETWORK" Default="" Mode="" Description="Container Variable: VPN_LAN_NETWORK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_LAN_LEAK_ENABLED" Target="VPN_LAN_LEAK_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_LAN_LEAK_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_EXPOSE_PORTS_ON_LAN" Target="VPN_EXPOSE_PORTS_ON_LAN" Default="" Mode="" Description="Container Variable: VPN_EXPOSE_PORTS_ON_LAN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="true" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_AUTO_PORT_FORWARD" Target="VPN_AUTO_PORT_FORWARD" Default="false" Mode="" Description="Container Variable: VPN_AUTO_PORT_FORWARD" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PORT_REDIRECTS" Target="VPN_PORT_REDIRECTS" Default="" Mode="" Description="Container Variable: VPN_PORT_REDIRECTS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_HEALTHCHECK_ENABLED" Target="VPN_HEALTHCHECK_ENABLED" Default="false|true" Mode="" Description="Container Variable: VPN_HEALTHCHECK_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_NAMESERVERS" Target="VPN_NAMESERVERS" Default="" Mode="" Description="Container Variable: VPN_NAMESERVERS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
