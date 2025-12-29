@@ -44,7 +44,7 @@
   <Config Name="VPN_PIA_USER" Target="VPN_PIA_USER" Default="" Mode="" Description="Container Variable: VPN_PIA_USER" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PASS" Target="VPN_PIA_PASS" Default="" Mode="" Description="Container Variable: VPN_PIA_PASS" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PREFERRED_REGION" Target="VPN_PIA_PREFERRED_REGION" Default="" Mode="" Description="Container Variable: VPN_PIA_PREFERRED_REGION" Type="Variable" Display="advanced" Required="false" Mask="false"/>
-  <Config Name="VPN_PIA_DIP_TOKEN" Target="VPN_PIA_DIP_TOKEN" Default="no" Mode="" Description="Container Variable: VPN_PIA_DIP_TOKEN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="VPN_PIA_DIP_TOKEN" Target="VPN_PIA_DIP_TOKEN" Default="" Mode="" Description="Container Variable: VPN_PIA_DIP_TOKEN" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="VPN_PIA_PORT_FORWARD_PERSIST" Target="VPN_PIA_PORT_FORWARD_PERSIST" Default="false|true" Mode="" Description="Container Variable: VPN_PIA_PORT_FORWARD_PERSIST" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false"/>
