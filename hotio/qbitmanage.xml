@@ -24,10 +24,11 @@
   <Requires>Don't forget to click **Show more settings...** for all **Variables**! If you do not use the VPN feature, you can remove all VPN related **Variables** and **Extra Parameters** (turn on **ADVANCED VIEW**).</Requires>
   <Description/>
   <MyIP/>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <ExtraParams>--hostname=qbitmanage.internal --cap-add=NET_ADMIN</ExtraParams>
   <PostArgs/>
   <Network>bridge</Network>
+  <Config Name="Host Port for 8080" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
