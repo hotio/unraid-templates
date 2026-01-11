@@ -25,6 +25,7 @@
   <PostArgs/>
   <Network>bridge</Network>
   <Config Name="Host Port for 5030" Target="5030" Default="5030" Mode="tcp" Description="Container Port: 5030" Type="Port" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Port for 5031" Target="5031" Default="5031" Mode="tcp" Description="Container Port: 5031" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PRIVOXY_ENABLED" Target="PRIVOXY_ENABLED" Default="false|true" Mode="" Description="Container Variable: PRIVOXY_ENABLED" Type="Variable" Display="advanced" Required="false" Mask="false"/>
