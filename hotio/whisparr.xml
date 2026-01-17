@@ -4,12 +4,16 @@
   <Repository>ghcr.io/hotio/whisparr:latest</Repository>
   <Registry>https://github.com/hotio/whisparr/pkgs/container/whisparr</Registry>
   <Branch>
-    <Tag>nightly</Tag>
-    <TagDescription>nightly</TagDescription>
+    <Tag>v2</Tag>
+    <TagDescription>v2</TagDescription>
   </Branch>
   <Branch>
     <Tag>v3</Tag>
     <TagDescription>v3</TagDescription>
+  </Branch>
+  <Branch>
+    <Tag>v3-develop</Tag>
+    <TagDescription>v3-develop</TagDescription>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
