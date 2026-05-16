@@ -7,10 +7,6 @@
     <Tag>release</Tag>
     <TagDescription>release</TagDescription>
   </Branch>
-  <Branch>
-    <Tag>legacy</Tag>
-    <TagDescription>legacy</TagDescription>
-  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hotio.dev/discord</Support>
